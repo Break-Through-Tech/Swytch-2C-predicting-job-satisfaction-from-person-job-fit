@@ -41,7 +41,7 @@ This project offers a compelling real-world application of matching algorithms. 
 # Predicting Job Satisfaction from Person-Job Fit
 
 **Company / Org:** Swytch  
-**Challenge Advisor:** Julie Young, julie@swytch.careers  
+**Challenge Advisor:** James Thompson, [Email address]  
 **Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
