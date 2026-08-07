@@ -53,19 +53,24 @@ Swytch is a career-tech organization dedicated to optimizing professional alignm
 
 ## 🎯 The Challenge
 ### Project Summary
-This project involves building a machine learning pipeline that integrates General Social Survey (GSS) data with the O*NET occupational database to predict employee job satisfaction. By engineering features that capture the "person-job fit" through matching personal values to occupational offerings, the team will evaluate how these variables influence satisfaction compared to background factors using algorithms like logistic regression, KNN, and tree-based models. The ultimate goal is to provide empirical evidence supporting Swytch's mission that value-based matching yields superior career outcomes.
+In this project, you will use national survey data on job satisfaction (the General Social Survey) together with the O*NET database of what occupations involve, and machine learning methods (feature engineering, logistic regression, tree-based models, k-nearest neighbors, and a Keras neural network), to predict whether someone is satisfied at work based on how well their personal work values match what their job actually offers. This tests a core idea behind SWYTCH: that matching people on what they value, not just on job titles, leads to better outcomes.
 
 ### Success Criteria
-A working pipeline that links the survey data to occupational profiles. Models that predict job satisfaction, with a clear read on how much the fit features improve prediction over background factors alone (reported with standard measures like AUC, plus confidence intervals). A comparison of fit-scoring methods showing which ones actually help. An honest writeup of how big the effect is and where the limits are.
+A working pipeline that links the survey data to occupational profiles. Models that predict job satisfaction, with a clear read on how much the fit features improve prediction over background factors alone (reported with standard measures like AUC, plus confidence intervals). A comparison of fit-scoring methods showing which ones actually help. And an honest writeup of how big the effect is and where the limits are. The scoring recipe stays in-house; students report findings only.
+
+### Stretch Goals
+
+- Free option: break the results out by industry or demographic group to see where the value-satisfaction link is strongest and weakest, or test how stable the findings are across survey years.
+- Optional API-based add-on (TBD, only if API access is later funded): have the model generate plain-language explanations of a person's fit, or a question-answering assistant over the survey codebook and O*NET docs.
 
 ### Project Milestones
 Use these milestones to guide your work. Your team will create a GitHub Projects board to track tasks within each milestone.
+
 | Month | Milestone | Key Activities |
-|-------|-----------|----------------|
-| **September** | Data Exploration & Preprocessing | Conduct EDA on GSS and O*NET datasets, perform cross-dataset key-matching, and establish cleaning protocols for missing values/outliers. |
-| **October** | Feature Engineering & Baseline Modeling | Develop "person-job fit" metrics, perform feature selection, and deploy baseline logistic regression and KNN models. |
-| **November** | Model Optimization & Evaluation | Execute iterative hyperparameter tuning, implement tree-based models and Keras neural networks, and perform rigorous cross-validation. |
-| **December** | Insights, Deliverables & Presentation | Synthesize business recommendations, document model limitations and effect sizes, and package the final technical report. |
+|---|---|---|
+| September | Data Linkage & Exploration | Match the survey's occupation codes to O*NET. Combine each person's work values and job satisfaction with their occupation's profile. Explore the data. |
+| October | Baseline Models & Evaluation Setup | Build simple baseline models using only background factors (income, hours, demographics). Set up a fair way to measure results when the satisfied and unsatisfied groups are different sizes. |
+| November | Fit Features & Model Comparison | Add the "fit" features. Track A measures how much they improve the prediction; Track B compares different ways of scoring fit. Add a Keras neural network for comparison. |
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
@@ -75,56 +80,78 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 **Name and Source:** General Social Survey (GSS) & O*NET Database  
 **Format:** CSV / TSV  
 **Size:** under 1gb  
-**Location:** Provided via internal project repository and documentation.  
+**Location:** https://gss.norc.org/get-the-data.html, https://www.onetcenter.org/database.html, https://www.onetcenter.org/crosswalks.html)
 
 ### Key Details
-- National survey data on job satisfaction (General Social Survey) and the O*NET database (Numerical/Quantitative and Categorical). Data is in CSV/TSV format and requires some cleaning/preprocessing.
-- Requires normalization of survey responses and O*NET descriptors to ensure consistent mapping between personal values and specific occupational attributes.
-
+- [Brief description of what's in the data]
+- [Any known limitations or preprocessing needed]
+- [Link to data dictionary or documentation, if available]
+  
 ---
 
 ## 🛠️ Suggested Approach
-**ML Problem Type:** Classification / Regression  
+
+**ML Problem Type:** Classification,Regression,Deep Learning / Neural Networks
+
 **Recommended Libraries:**
-- Feature engineering
-- logistic regression
-- tree-based models
-- k-nearest neighbors
-- Keras neural network
-**Evaluation Metrics:** AUC (Area Under the Curve), Confidence Intervals, and feature importance rankings comparing fit-based metrics against demographic baselines.
+- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+
+**Evaluation Metrics:**
+- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
 
 ---
 
 ## 📚 Resources to Get Started
+
 The following resources will help your team understand the problem space and potential technical approaches for this project:
+
 **Background Reading:**
-- Overview of Person-Job Fit theory and the O*NET occupational classification structure.
+- [e.g., Link to an article or blog post about the problem domain]
+- [e.g., Link to an industry report or case study]
+
 **Technical Tutorials:**
-- Documentation on scikit-learn preprocessing pipelines and Keras regression architectures.
+- [e.g., Link to a free tutorial on the ML technique(s) involved]
+- [e.g., Link to documentation for a key library or tool]
+
 **Code Examples:**
-- Starter notebooks demonstrating GSS/O*NET data merging techniques and baseline model implementations.
+- [e.g., Link to a relevant GitHub repo]
+- [e.g., Link to a sample implementation or starter code]
+
+**Other:**
+- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
+
+*Feel free to explore beyond these, and share anything interesting you find with me!*
 
 ---
 
 ## 🤝 How We'll Work Together
-**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** Email and Slack workspace channels  
-**Response time:** 24-48 business hours  
-**Recommended Tools:**
-- **Coding:** Google Colab Free Tier  
-- **Collaboration:** GitHub, Notion  
-- **Virtual Meetings:** Zoom, Google Meet  
+
+**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
+
+ **Other ways to reach out to me with questions:** 
+* [e.g., Your team's channel within Break Through Tech’s Discord space]
+* [e.g., Email; please copy your teammates and AI Studio Coach]
+* [e.g., Request a team check-in on Zoom]
+* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
+
+> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
+
+**Recommended free coding / collaboration tools**
+* […]
+* […]
 
 ---
 
 ## 🚀 Getting Started
-1. **Review this overview document** and note any questions for our first meeting.
-2. **Begin reviewing the dataset** using the link provided in the Dataset section.
-3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
 
-I'm excited to work with you!
+1. **Review this overview document** and note any questions for our first meeting
+2. **Begin reviewing the dataset** using the link above
+3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+
+I’m excited to work with you!
 
 ---
 
 ## ❓ Questions?
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
+
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
