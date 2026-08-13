@@ -82,6 +82,11 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 **Size:** under 1gb  
 **Location:** https://gss.norc.org/get-the-data.html, https://www.onetcenter.org/database.html, https://www.onetcenter.org/crosswalks.html)
 
+**Name and Source:** The American Job Quality Study: 2025  
+**Format:** CSV / TSV  
+**Size:** under 1gb  
+**Location:** (https://www.gallup.com/analytics/691241/american-job-quality-study.aspx)
+
 ### Key Details
 - [Brief description of what's in the data]
 - [Any known limitations or preprocessing needed]
