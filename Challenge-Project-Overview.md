@@ -53,7 +53,7 @@ Swytch is a career-tech organization dedicated to optimizing professional alignm
 
 ## 🎯 The Challenge
 ### Project Summary
-In this project, you will use national survey data on job satisfaction (the General Social Survey) together with the O*NET database of what occupations involve, and machine learning methods (feature engineering, logistic regression, tree-based models, k-nearest neighbors, and a Keras neural network), to predict whether someone is satisfied at work based on how well their personal work values match what their job actually offers. This tests a core idea behind SWYTCH: that matching people on what they value, not just on job titles, leads to better outcomes.
+In this project, you will use national survey data on job satisfaction (e.g., the General Social Survey) together with the O*NET database of what occupations involve, and machine learning methods (feature engineering, logistic regression, tree-based models, k-nearest neighbors, and a Keras neural network), to predict whether someone is satisfied at work based on how well their personal work values match what their job actually offers. This tests a core idea behind SWYTCH: that matching people on what they value, not just on job titles, leads to better outcomes.
 
 ### Success Criteria
 A working pipeline that links the survey data to occupational profiles. Models that predict job satisfaction, with a clear read on how much the fit features improve prediction over background factors alone (reported with standard measures like AUC, plus confidence intervals). A comparison of fit-scoring methods showing which ones actually help. And an honest writeup of how big the effect is and where the limits are. The scoring recipe stays in-house; students report findings only.
@@ -78,7 +78,7 @@ Use these milestones to guide your work. Your team will create a GitHub Projects
 
 ## 📊 Dataset
 **Name and Source:** General Social Survey (GSS) & O*NET Database  
-**Format:** CSV / TSV  
+**Format:** SPSS (can read with pyreadstat library)
 **Size:** under 1gb  
 **Location:** https://gss.norc.org/get-the-data.html, https://www.onetcenter.org/database.html, https://www.onetcenter.org/crosswalks.html)
 
