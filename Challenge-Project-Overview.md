@@ -2,6 +2,7 @@
 
 **Company / Org:** Swytch  
 **Challenge Advisor:** James Thompson, [jimt@swytch.careers]  
+**AI Studio Coach:** Jenna Hunte, jenna.hunte@breakthroughtech.org     
 **Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
