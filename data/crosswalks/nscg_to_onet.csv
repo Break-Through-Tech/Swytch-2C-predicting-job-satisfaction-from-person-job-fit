@@ -1,0 +1,130 @@
+ncses_code,ncses_label,onet_soc_candidates,mapping_type,notes
+110510,Computer and information research scientists,15-1221.00,direct,
+110520,Computer network architects,15-1241.00,direct,
+110540,Computer support specialists,15-1231.00;15-1232.00,aggregate,network vs user support split in O*NET but combined here
+110550,Computer system analysts,15-1211.00,direct,
+110560,Database administrators,15-1242.00,direct,O*NET also has 15-1243 Database Architects - check if you want to include
+110570,Information security analysts,15-1212.00,direct,
+110580,Network and computer systems administrators,15-1244.00,direct,
+110590,Software developers - applications and systems software,15-1252.00,direct,O*NET-SOC 2019 combined app/systems software devs into one code
+110600,Web developers,15-1254.00,direct,check current O*NET version - some releases split web dev vs digital interface design
+110610,Other computer and information science occupations,15-1299.00,aggregate,catch-all
+121720,Mathematicians,15-2021.00,direct,
+121730,Operations research analysts,15-2031.00,direct,
+121740,Statisticians,15-2041.00,direct,
+121760,Other mathematical scientists,15-2099.00,aggregate,catch-all
+121770,Data scientists,15-2051.00,direct,
+182760,Postsecondary teachers - Computer sciences,25-1021.00,direct,
+182860,Postsecondary teachers - Mathematical sciences,25-1022.00,direct,
+210210,Agricultural and food scientists,19-1011.00;19-1012.00;19-1013.00,aggregate,animal/food/soil-plant scientists combined
+220220,Biochemists and biophysicists,19-1021.00,direct,
+220230,Biological scientists,19-1022.00;19-1023.00;19-1029.00,aggregate,microbiologists/zoologists/other bio scientists
+220250,Medical scientists (excluding practitioners),19-1042.00,direct,
+220270,Other life scientists,19-1099.00,aggregate,catch-all
+230240,Conservation scientists and foresters,19-1031.00;19-1032.00,aggregate,
+282710,Postsecondary teachers - Agriculture,25-1041.00,direct,
+282730,Postsecondary teachers - Biological sciences,25-1042.00,direct,
+282970,Postsecondary teachers - Other life and physical sciences,25-1099.00,aggregate,catch-all bucket; overlaps with other postsec-teacher catch-alls
+311930,Chemists except biochemists,19-2031.00,direct,
+321920,Atmospheric and space scientists,19-2021.00,direct,
+321940,Environmental scientists and specialists,19-2041.00,direct,
+321950,Geoscientists including hydrologists and oceanographers,19-2042.00;19-2043.00,aggregate,
+331960,Physicists except biophysicists,19-2012.00,direct,
+341980,Other physical scientists including astronomers,19-2011.00;19-2099.00,aggregate,astronomers merged into this bucket in 2023 per NCSES footnote
+382750,Postsecondary teachers - Chemistry,25-1052.00,direct,
+382770,Postsecondary teachers - Atmospheric/earth/environmental/marine/space sciences,25-1051.00,direct,
+382890,Postsecondary teachers - Physics,25-1054.00,direct,
+412320,Economists,19-3011.00,direct,
+422350,Political scientists,19-3094.00,direct,
+432360,Psychologists - research and applied,19-3032.00;19-3039.00,aggregate,industrial-organizational + other non-clinical psychologists; excludes health-service psychologists (see 611150)
+442310,Anthropologists and archeologists,19-3091.00,direct,
+442370,Sociologists,19-3041.00,direct,
+452380,Other social scientists,19-3099.00,aggregate,catch-all
+482780,Postsecondary teachers - Economics,25-1063.00,direct,
+482900,Postsecondary teachers - Political science,25-1065.00,direct,
+482910,Postsecondary teachers - Psychology,25-1066.00,direct,
+482930,Postsecondary teachers - Sociology,25-1067.00,direct,
+482980,Postsecondary teachers - Other social sciences,25-1069.00,aggregate,catch-all
+510820,Aeronautical aerospace and astronautical engineers,17-2011.00,direct,
+520850,Chemical engineers,17-2041.00,direct,
+530860,Civil engineers including architectural and sanitary,17-2051.00,direct,
+540870,Computer engineers hardware,17-2061.00,direct,
+540890,Electrical and electronics engineers,17-2071.00;17-2072.00,aggregate,
+550910,Industrial engineers including health and safety,17-2112.00,direct,check whether current SOC splits out 17-2111 Health and Safety Engineers separately
+560940,Mechanical engineers,17-2141.00,direct,
+570840,Bioengineers and biomedical engineers,17-2031.00,direct,
+570900,Environmental engineers,17-2081.00,direct,
+570920,Marine engineers and naval architects,17-2121.00,direct,
+570930,Materials engineers,17-2131.00,direct,
+570950,Mining and geological engineers including mining safety engineers,17-2151.00,direct,
+570960,Nuclear engineers,17-2161.00,direct,
+570970,Petroleum engineers,17-2171.00,direct,
+570980,Sales engineers,41-9031.00,direct,
+570990,Other engineers including agricultural,17-2199.00;19-4012.00,aggregate,agricultural engineers merged into this bucket in 2023 per NCSES footnote
+582800,Postsecondary teachers - Engineering,25-1032.00,direct,
+611110,Diagnosing/treating practitioners,29-1021.00;29-1022.00;29-1041.00;29-1210.00;29-1223.00;29-1081.00;29-1140.00,aggregate,dentists/optometrists/physicians/psychiatrists/podiatrists/surgeons bundled together - broad
+611120,RNs pharmacists dieticians therapists PAs NPs,29-1141.00;29-1051.00;29-1031.00;29-1071.00;29-1171.00,aggregate,plus various 29-112x therapist codes
+611130,Health technologists and technicians,29-2021.00;29-2061.00;29-2071.00;29-2034.00,aggregate,dental hygienists/LPNs/health info techs/radiologic techs - not exhaustive
+611140,Other health occupations,29-9099.00,aggregate,catch-all
+611150,Psychologists - health services,19-3033.00;19-3034.00,aggregate,clinical/counseling + school psychologists (new code for 2023 - see NCSES footnote b)
+612870,Postsecondary teachers - Health,25-1071.00,direct,may also fold in 25-1072 Nursing Instructors depending on O*NET version
+621420,Computer and information systems managers,11-3021.00,direct,
+621430,Engineering managers,11-9041.00,direct,
+621440,Medical and health services managers,11-9111.00,direct,
+621450,Natural sciences managers,11-9121.00,direct,
+632530,Teachers: Secondary - computer math or sciences,25-2031.00,aggregate,SOC does not split secondary teachers by subject taught
+632540,Teachers: Secondary - social sciences,25-2031.00,aggregate,same SOC code as above - survey distinguishes subject; SOC does not
+640260,Technologists and technicians in biological/life sciences,19-4021.00,direct,
+640530,Computer programmers,15-1251.00,direct,
+641000,Electrical electronic industrial and mechanical technicians,17-3023.00;17-3026.00;17-3027.00,aggregate,
+641010,Drafting occupations including computer drafting,17-3011.00;17-3012.00;17-3013.00,aggregate,
+641020,Surveying and mapping technicians,17-3031.00,direct,
+641030,Other engineering technologists and technicians,17-3029.00,aggregate,catch-all
+641040,Surveyors cartographers photogrammetrists,17-1021.00;17-1022.00,aggregate,
+641970,Technologists and technicians in physical sciences,19-4031.00;19-4099.00,aggregate,approximate - chemical technicians + other physical science techs
+650810,Architects except naval,17-1011.00,direct,
+651710,Actuaries,15-2011.00,direct,
+711410,Top-executives,11-1011.00;11-1021.00;11-1031.00,aggregate,chief execs/general-ops managers/legislators
+711460,Education and childcare administrators,11-9031.00;11-9032.00;11-9033.00,aggregate,preschool through postsecondary admins
+711470,Other mid-level managers,11-9199.00,aggregate,catch-all
+721510,Financial specialists,13-2011.00,aggregate,accountants/auditors - other 13-20xx finance specialist codes may also apply
+721520,Personnel training and labor relations specialists,13-1071.00;13-1151.00;13-1075.00,aggregate,
+721530,Other management related occupations,13-1021.00;13-1022.00;13-1031.00;13-1041.00;13-1081.00;13-1111.00;13-1161.00,aggregate,broad - buyers/claims adjusters/compliance/logisticians/mgmt analysts/marketing specialists
+732510,Teachers: Preschool and kindergarten,25-2011.00;25-2012.00,aggregate,
+732520,Teachers: Elementary and middle school,25-2021.00;25-2022.00,aggregate,
+732550,Teachers: Secondary - other subjects,25-2031.00,aggregate,same SOC code as 632530/632540
+732560,Teachers: Special education primary and secondary,25-2051.00;25-2052.00;25-2053.00;25-2058.00,aggregate,
+732570,Teachers: Other precollegiate area,25-3000.00,aggregate,catch-all broad group
+742720,Postsecondary teachers - Art drama and music,25-1121.00,aggregate,
+742740,Postsecondary teachers - Business,25-1011.00,direct,
+742790,Postsecondary teachers - Education,25-1081.00,direct,
+742810,Postsecondary teachers - English language and literature,25-1123.00,direct,
+742820,Postsecondary teachers - Foreign language and literature,25-1124.00,direct,
+742830,Postsecondary teachers - History,25-1125.00,direct,
+742880,Postsecondary teachers - Recreation and fitness studies,25-1193.00,direct,
+742990,Postsecondary teachers - Other postsecondary fields,25-1199.00,aggregate,catch-all; overlaps conceptually with 282970/482980
+750400,Clergy and other religious workers,21-2011.00;21-2021.00,aggregate,
+750700,Counselors,21-1012.00;21-1018.00,aggregate,not exhaustive of all counselor SOC codes
+752400,Social workers,21-1021.00;21-1022.00;21-1023.00;21-1029.00,aggregate,
+752410,Misc community and social service specialists,21-1099.00,aggregate,includes probation/correctional treatment specialists 21-1092
+762000,Sales representatives: services,41-3021.00;41-3031.00;41-9022.00;41-3099.00,aggregate,insurance/securities/real estate/other services sales
+762010,Sales representatives: wholesale and manufacturing,41-4011.00;41-4012.00,aggregate,
+762020,Retail sales workers,41-2031.00,direct,
+762030,Misc sales and related workers,41-9099.00,aggregate,catch-all
+770100,Writers editors PR specialists artists entertainers broadcasters and historians,27-3043.00;27-3041.00;27-3031.00;19-3093.00,aggregate,very broad - historians folded in 2023 per NCSES footnote d; many more 27-1xxx/27-2xxx codes plausibly belong here too
+780310,Bookkeeping accounting and auditing clerks,43-3031.00,direct,
+780320,Secretaries and administrative assistants and receptionists,43-6011.00;43-6012.00;43-6013.00;43-6014.00;43-4171.00,aggregate,
+780330,Other office and administrative support workers,43-9199.00,aggregate,broad catch-all - actually spans most of SOC major group 43
+781100,Farming fishing and forestry occupations,45-0000.00,aggregate,entire SOC major group - very broad
+781200,Lawyers judges and related workers,23-1011.00;23-1021.00;23-1023.00,aggregate,
+781250,Legal support workers,23-2011.00,aggregate,paralegals/legal assistants - other 23-2xxx codes may apply
+781300,Librarians archivists and curators,25-4011.00;25-4012.00;25-4021.00;25-4022.00,aggregate,
+782210,Food preparation and service occupations,35-0000.00,aggregate,entire SOC major group - very broad
+782220,Protective services occupations,33-0000.00,aggregate,entire SOC major group - very broad
+782230,Other service occupations except health,39-0000.00,aggregate,most of SOC major group 39 - very broad
+783000,Other teachers and instructors,25-3000.00,aggregate,broad catch-all; overlaps with 732570
+784010,Construction and extraction occupations,47-0000.00,aggregate,entire SOC major group - very broad
+784020,Installation maintenance and repair occupations,49-0000.00,aggregate,entire SOC major group - very broad
+784030,Production occupations,51-0000.00,aggregate,entire SOC major group - very broad
+784050,Transportation and material moving occupations,53-0000.00,aggregate,entire SOC major group - very broad
+785000,Other occupations not elsewhere classified,,unmapped,no reasonable single SOC/O*NET target - truly residual
