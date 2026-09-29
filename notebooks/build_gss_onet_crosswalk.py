@@ -1,6 +1,6 @@
 """
-Step 3: GSS 2024 occ10 (2010 Census codes) -> O*NET Work Values
-Chain: Census 2010 code -> SOC 2010 -> O*NET-SOC 2010 -> O*NET-SOC 2019 -> Work Values
+Step 3: GSS 2024 occ10 (2010 Census codes) -> O*NET Work Values and Job Zone
+Chain: Census 2010 code -> SOC 2010 -> O*NET-SOC 2010 -> O*NET-SOC 2019 -> Work Values, Job Zone
 """
 
 import re
