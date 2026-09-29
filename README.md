@@ -49,6 +49,20 @@ pip install -r requirements.txt
 
 To run the notebooks in VS Code, open a notebook, click **Select Kernel** in the top right, and choose the `.venv` environment. Activate the environment again (`source .venv/bin/activate`) each time you open a new terminal.
 
+### Build the merged dataset
+
+Run the two scripts in order, from any folder. Outputs are written to the repo root.
+
+```bash
+python notebooks/build_gss_onet_crosswalk.py   # -> gss_occ10_work_values.csv
+python notebooks/merge_gss_onet.py             # -> gss2024_onet_merged.csv
+```
+
+1. `build_gss_onet_crosswalk.py` maps each Census 2010 occupation code to O\*NET Work Values and Job Zone, one row per code.
+2. `merge_gss_onet.py` left-joins GSS 2024 respondents to that crosswalk on `occ10` and prints the match rates for the write-up.
+
+The O\*NET inputs (`notebooks/formatting_onet/formatted_work_values.csv` and `formatted_job_zones.csv`) are already committed. Rerun the notebooks in `notebooks/formatting_onet/` only if the O\*NET Excel files in `data/` change. See `docs/merge_notes.md` for match rates, flags, and limitations.
+
 ---
 
 ## 🏗️ **Project Overview**
