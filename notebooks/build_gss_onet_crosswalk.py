@@ -23,8 +23,8 @@ VALUES = [
 
 # --- 1. Census 2010 -> SOC 2010 (same cleaning as crosswalk.ipynb) ---
 raw = pd.read_excel(DATA / "census_2010_occ_soc.xls", header=None)
-census = raw.iloc[:, [2, 3]].dropna().astype(str)
-census.columns = ["census_code", "soc2010"]
+census = raw.iloc[:, [1, 2, 3]].dropna(subset=[2, 3]).astype(str)
+census.columns = ["census_title", "census_code", "soc2010"]
 census = census.apply(lambda s: s.str.strip())
 census = census[
     census.census_code.str.fullmatch(r"\d{1,4}(\.0)?")
@@ -107,22 +107,28 @@ print(
     .to_string()
 )
 
-# --- 4. Attach O*NET 2019 codes and Work Values ---
+# --- 4. Attach O*NET 2019 codes, Work Values, and Job Zones ---
 wv = pd.read_csv(HERE / "formatting_onet" / "formatted_work_values.csv").rename(
     columns={"O*NET-SOC Code": "onet2019"}
+)
+jz = pd.read_csv(HERE / "formatting_onet" / "formatted_job_zones.csv").rename(
+    columns={"O*NET-SOC Code": "onet2019", "Job Zone": "job_zone"}
 )
 m = (
     long.merge(xw, on="soc_detail", how="left")
     .merge(wv[["onet2019"] + VALUES], on="onet2019", how="left")
+    .merge(jz[["onet2019", "job_zone"]], on="onet2019", how="left")
     .drop_duplicates(["census_code", "onet2019"])
 )
 m["has_data"] = m[VALUES[0]].notna()
 
 # --- 5. Collapse to one row per Census code (simple mean) ---
 diag = m.groupby("census_code").agg(
+    census_title=("census_title", "first"),
     soc2010=("soc2010", "first"),
     n_onet=("onet2019", "nunique"),
     n_with_data=("has_data", "sum"),
+    n_with_job_zone=("job_zone", "count"),
 )
 
 
@@ -144,8 +150,22 @@ diag["onet_no_data"] = (
     .groupby("census_code")
     .onet2019.apply(lambda s: ", ".join(sorted(s)))
 )
-crosswalk = diag.join(m.groupby("census_code")[VALUES].mean()).reset_index()
-crosswalk.to_csv("gss_occ10_work_values.csv", index=False)
+
+
+# Partial matches missing a real occupation, not just an "All Other" catch-all.
+# SOC residual ("All Other") codes end in 9, e.g. 25-3099.
+def missing_real_occupation(codes):
+    return any(c[6] != "9" for c in codes.split(", "))
+
+
+diag["partial_substantive"] = (diag["match"] == "partial") & diag.onet_no_data.fillna(
+    ""
+).map(lambda s: bool(s) and missing_real_occupation(s))
+
+crosswalk = diag.join(
+    m.groupby("census_code")[VALUES + ["job_zone"]].mean()
+).reset_index()
+crosswalk.to_csv(HERE.parent / "gss_occ10_work_values.csv", index=False)
 print(crosswalk["match"].value_counts())
 
 # --- 6. Validate: weighted coverage of GSS 2024 respondents ---
