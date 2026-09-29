@@ -37,6 +37,18 @@
 * How to access the dataset(s)
 * How to run the notebook or scripts
 
+### Install dependencies
+
+Requires Python 3.10 or newer. From the repo root, create a virtual environment and install the packages in `requirements.txt`:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+To run the notebooks in VS Code, open a notebook, click **Select Kernel** in the top right, and choose the `.venv` environment. Activate the environment again (`source .venv/bin/activate`) each time you open a new terminal.
+
 ---
 
 ## 🏗️ **Project Overview**
