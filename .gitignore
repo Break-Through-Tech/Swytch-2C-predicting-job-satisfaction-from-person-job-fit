@@ -1,3 +1,6 @@
 .venv/
 .DS_Store
 .ipynb_checkpoints/
+
+# Raw NSCG public-use data files (large; shared via Google Drive, see docs/nscg_data_access.md)
+data/pcg23Public/
