@@ -1,0 +1,130 @@
+ncses_code,ncses_label,soc2018_codes,notes
+110510,Computer and information research scientists,15-1221,
+110520,Computer network architects,15-1241,
+110540,Computer support specialists,15-1231;15-1232,SOC splits network support vs user support
+110550,Computer system analysts,15-1211,
+110560,Database administrators,15-1242;15-1243,includes database architects; no separate NCSES code
+110570,Information security analysts,15-1212,
+110580,Network and computer systems administrators,15-1244,
+110590,Software developers – applications and systems software,15-1252,QA analysts/testers (15-1253) go to 110610
+110600,Web developers,15-1254;15-1255,both came from SOC 2010 15-1134 Web Developers
+110610,Other computer and information science occupations,15-1253;15-1299,
+121720,Mathematicians,15-2021,
+121730,Operations research analysts,15-2031,
+121740,Statisticians,15-2041,
+121760,Other mathematical scientists,15-2099,
+121770,Data scientists,15-2051,
+182760,Postsecondary teachers - Computer sciences,25-1021,
+182860,Postsecondary teachers - Mathematical sciences,25-1022,
+210210,Agricultural and food scientists,19-1011;19-1012;19-1013,
+220220,Biochemists and biophysicists,19-1021,
+220230,"Biological scientists (e.g., botanists, ecologists, zoologists)",19-1022;19-1023;19-1029,
+220250,Medical scientists (excluding practitioners),19-1041;19-1042,judgment: epidemiologists included as non-practitioner medical scientists
+220270,Other life scientists,19-1099,
+230240,Conservation scientists and foresters,19-1031;19-1032,
+282710,Postsecondary teachers - Agriculture,25-1041,
+282730,Postsecondary teachers - Biological sciences,25-1042,
+282970,"Postsecondary teachers - Other life and physical sciences (e.g., conservation, etc.)",25-1043,label example is conservation; environmental science teachers (25-1053) go to 382770
+311930,"Chemists, except biochemists",19-2031,
+321920,Atmospheric and space scientists,19-2021,
+321940,Environmental scientists and specialists,19-2041,
+321950,"Geoscientists, including hydrologists and oceanographers",19-2042;19-2043,
+331960,"Physicists, except biophysicists",19-2012,
+341980,"Other physical scientists, including astronomers",19-2011;19-2032;19-2099,"judgment: materials scientists (19-2032) placed here, not with chemists"
+382750,Postsecondary teachers - Chemistry,25-1052,
+382770,"Postsecondary teachers - Atmospheric, earth, environmental, marine, and space sciences",25-1051;25-1053,
+382890,Postsecondary teachers - Physics,25-1054,
+412320,Economists,19-3011,
+422350,Political scientists,19-3094,
+432360,"Psychologists - research and applied (e.g., industrial-organizational, experimental)",19-3032;19-3039,19-3039 (all other) may include some health-service psychologists
+442310,Anthropologists and archeologists,19-3091,
+442370,Sociologists,19-3041,
+452380,Other social scientists,19-3022;19-3051;19-3092;19-3099;19-4061,"survey researchers, urban planners, geographers, social science research assistants; historians go to 770100"
+482780,Postsecondary teachers - Economics,25-1063,
+482900,Postsecondary teachers - Political science,25-1065,
+482910,Postsecondary teachers - Psychology,25-1066,
+482930,Postsecondary teachers - Sociology,25-1067,
+482980,Postsecondary teachers - Other social sciences,25-1061;25-1062;25-1064;25-1069,"anthropology, area studies, geography, other"
+510820,"Aeronautical, aerospace, and astronautical engineers",17-2011,
+520850,Chemical engineers,17-2041,
+530860,"Civil engineers, including architectural and sanitary",17-2051,
+540870,"Computer engineers, hardware",17-2061,
+540890,Electrical and electronics engineers,17-2071;17-2072,
+550910,"Industrial engineers, including health and safety",17-2111;17-2112,label includes health and safety engineers
+560940,Mechanical engineers,17-2141,
+570840,Bioengineers and biomedical engineers,17-2031,
+570900,Environmental engineers,17-2081,
+570920,Marine engineers and naval architects,17-2121,
+570930,Materials engineers,17-2131,
+570950,"Mining and geological engineers, including mining safety engineers",17-2151,
+570960,Nuclear engineers,17-2161,
+570970,Petroleum engineers,17-2171,
+570980,Sales engineers,41-9031,
+570990,"Other engineers, including agricultural",17-2021;17-2199,
+582800,Postsecondary teachers - Engineering,25-1032,
+611110,"Diagnosing/treating practitioners (e.g., dentists, optometrists, physicians, psychiatrists, podiatrists, surgeons, veterinarians)",29-1011;29-1020;29-1041;29-1081;29-1131;29-1211;29-1212;29-1213;29-1214;29-1215;29-1216;29-1217;29-1218;29-1221;29-1222;29-1223;29-1224;29-1229;29-1240;29-1291;29-1299,"chiropractors, dentists, optometrists, podiatrists, veterinarians, physicians, surgeons, acupuncturists, other"
+611120,"Registered nurses, pharmacists, dieticians, therapists, physician assistants, nurse practitioners",29-1031;29-1051;29-1071;29-1120;29-1141;29-1151;29-1161;29-1171;29-1181,judgment: audiologists placed with therapists
+611130,"Health technologists and technicians (e.g., dental hygienists, health record technologists/technicians, licensed practical nurses, medical or laboratory technicians, radiological technicians)",29-1292;29-2000;29-9021,all health technologists and technicians plus dental hygienists
+611140,Other health occupations,29-9091;29-9092;29-9093;29-9099;31-0000;19-5011;19-5012,includes healthcare support (31-xxxx) per questionnaire; occupational health and safety specialists/technicians were healthcare codes in SOC 2010
+611150,"Psychologists - Health services (e.g., clinical, counseling, school psychologists)",19-3033;19-3034,
+612870,Postsecondary teachers - Health,25-1071;25-1072,includes nursing instructors
+621420,Computer and information systems managers,11-3021,
+621430,Engineering managers,11-9041,
+621440,Medical and health services managers,11-9111,
+621450,Natural sciences managers,11-9121,
+632530,"Teachers: Secondary - computer, math, or sciences",25-2031,SOC doesn't split secondary teachers by subject; shared with 632540 and 732550
+632540,Teachers: Secondary - social sciences,25-2031,SOC doesn't split secondary teachers by subject; shared with 632530 and 732550
+640260,Technologists and technicians in the biological/life sciences,19-4012;19-4013;19-4021;19-4071,"agricultural, food science, biological, forest/conservation technicians"
+640530,"Computer programmers (business, scientific, process control)",15-1251,
+641000,"Electrical, electronic, industrial, and mechanical technicians",17-3023;17-3024;17-3026;17-3027,
+641010,"Drafting occupations, including computer drafting",17-3011;17-3012;17-3013;17-3019,
+641020,Surveying and mapping technicians,17-3031,
+641030,Other engineering technologists and technicians,17-3021;17-3022;17-3025;17-3028;17-3029,
+641040,"Surveyors, cartographers, photogrammetrists",17-1021;17-1022,
+641970,Technologists and technicians in the physical sciences,19-4031;19-4042;19-4043;19-4044;19-4051;19-4092;19-4099,
+650810,"Architects, except naval",17-1011;17-1012,includes landscape architects
+651710,Actuaries,15-2011,
+711410,"Top-executives (e.g., chief executives, general and operations managers, legislators)",11-1011;11-1021;11-1031,
+711460,Education and childcare administrators,11-9031;11-9032;11-9033;11-9039,
+711470,Other mid-level managers,11-2000;11-3000;11-9000,all managers not coded elsewhere
+721510,"Financial specialists (e.g., accountants, auditors)",13-2000,all financial specialists
+721520,"Personnel, training, and labor relations specialists",13-1071;13-1075;13-1141;13-1151,
+721530,"Other management related occupations (e.g., buyers and purchasing agents, claims adjusters, compliance officers, logisticians, management analysts, marketing specialists)",13-1000,all business operations specialists not coded in 721520
+732510,Teachers: Preschool and kindergarten,25-2011;25-2012,
+732520,Teachers: Elementary and middle school,25-2021;25-2022;25-2023,
+732550,Teachers: Secondary - other subjects,25-2031;25-2032,SOC doesn't split secondary teachers by subject; 25-2031 shared with 632530 and 632540
+732560,Teachers: Special education - primary and secondary school,25-2050,
+732570,Teachers: Other precollegiate area,25-3011;25-3031;25-9031;25-9042;25-9043,"judgment: adult basic ed, substitutes, instructional coordinators, K-12 teaching assistants"
+742720,"Postsecondary teachers - Art, drama, and music",25-1121,
+742740,Postsecondary teachers - Business,25-1011,
+742790,Postsecondary teachers - Education,25-1081,
+742810,Postsecondary teachers - English language and literature,25-1123,
+742820,Postsecondary teachers - Foreign language and literature,25-1124,
+742830,Postsecondary teachers - History,25-1125,
+742880,Postsecondary teachers - Recreation and fitness studies,25-1193,
+742990,Postsecondary teachers - Other postsecondary fields,25-1031;25-1082;25-1111;25-1112;25-1113;25-1122;25-1126;25-1192;25-1194;25-1199;25-9044,judgment: architecture teachers and postsecondary teaching assistants placed here
+750400,Clergy and other religious workers,21-2000,
+750700,"Counselors (e.g., educational, vocational, mental health, and substance abuse)",21-1011;21-1012;21-1013;21-1014;21-1015;21-1019,
+752400,Social workers,21-1021;21-1022;21-1023;21-1029,
+752410,"Miscellaneous community and social service specialists (e.g., probation officers and correctional treatment specialists)",21-1091;21-1092;21-1093;21-1094;21-1099,
+762000,"Sales representatives: services (e.g., insurance, securities, real estate, and business services)",41-3011;41-3021;41-3031;41-3041;41-3091;41-9021;41-9022,includes real estate brokers and agents
+762010,"Sales representatives: wholesale and manufacturing (e.g., industrial machinery/equipment/supplies)",41-4011;41-4012,
+762020,"Retail sales workers (e.g., furnishings, clothing, motor vehicles, cosmetics)",41-1011;41-2000,includes retail supervisors
+762030,Miscellaneous sales and related workers,41-1012;41-9011;41-9012;41-9041;41-9091;41-9099,
+770100,"Writers, editors, public relations specialists, artists, entertainers, broadcasters, and historians",27-0000;19-3093,entire SOC major group 27 plus historians - very broad
+780310,"Bookkeeping, accounting, and auditing clerks",43-3031,
+780320,"Secretaries and administrative assistants, and receptionists",43-4171;43-6011;43-6012;43-6013;43-6014,
+780330,Other office and administrative support workers,43-0000,rest of SOC major group 43
+781100,"Farming, fishing, and forestry occupations",45-0000,entire SOC major group
+781200,"Lawyers, judges, and related workers",23-1000,
+781250,"Legal support workers (e.g., paralegals, legal assistants)",23-2000,
+781300,"Librarians, archivists, and curators",25-4000,includes museum and library technicians
+782210,"Food preparation and service occupations (e.g., cooks, waitresses, bartenders)",35-0000,entire SOC major group
+782220,"Protective services occupations (e.g., firefighters, police, guards, wardens, park rangers)",33-0000,entire SOC major group
+782230,"Other service occupations, except health (e.g., personal care service occupations, building and grounds cleaning and maintenance occupations, etc.)",37-0000;39-0000,entire SOC major groups 37 and 39
+783000,"Other teachers and instructors (e.g., private tutors, dance or flying instructors, martial arts instructors)",25-3021;25-3041;25-3099;25-9021;25-9049;25-9099,
+784010,Construction and extraction occupations,47-0000,entire SOC major group
+784020,"Installation, maintenance, and repair occupations",49-0000,entire SOC major group
+784030,"Production occupations (e.g., assemblers, bakers, metal workers, tailors, woodworkers)",51-0000,entire SOC major group
+784050,Transportation and material moving occupations,53-0000,entire SOC major group
+785000,Other occupations (not elsewhere classified),,residual category; no SOC target
