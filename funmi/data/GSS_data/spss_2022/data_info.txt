@@ -1,0 +1,1024 @@
+1297 columns
+
+   fileversion    year   id  abany  abanyg  ...  zodiac  baselinestatus  amerstatus  wtssps_as  wtssnrps_as
+0      7224.31  2022.0  1.0    NaN     1.0  ...     1.0             1.0         0.0   0.276424     0.376261
+1      7224.31  2022.0  2.0    NaN     1.0  ...    10.0             1.0         0.0   0.673530     0.894114
+2      7224.31  2022.0  3.0    1.0     NaN  ...     4.0             1.0         0.0   1.210757     1.681792
+3      7224.31  2022.0  4.0    NaN     1.0  ...     3.0             1.0         0.0   1.083156     1.485871
+4      7224.31  2022.0  5.0    1.0     NaN  ...    11.0             1.0         0.0   1.277208     1.754268
+
+
+----COLUMNS----
+
+['fileversion', 'year', 'id', 'abany', 'abanyg', 'abbelief', 'abdefect', 'abdefectg', 'abgender', 'abhelp1', 'abhelp2', 'abhelp3', 'abhelp4', 'abhlth', 'abhlthg', 'abmoral', 'abnomore', 'abnomoreg', 'abpoor', 'abpoorg', 'abrape', 'abrapeg', 'absingle', 'absingleg', 'acqntsex', 'adminconsent', 'adoptus', 'adults', 'adultsinhh', 'adults_exp', 'advfront', 'affrmact', 'afraidof', 'age', 'aged', 'agednv', 'agedv', 'agehef1','agehef10', 'agehef11', 'agehef12', 'agehef13', 'agehef14', 'agehef2', 'agehef3', 'agehef4', 'agehef5', 'agehef6', 'agehef7', 'agehef8', 'agehef9', 'agekdbrn', 'agekdbrn_9422', 'allorglevel', 'altmed', 'altsat','arthrtis', 'artsout', 'attend', 'away1', 'away10', 'away11', 'away12', 'away13', 'away14', 'away2', 'away3', 'away4', 'away5', 'away6', 'away7', 'away8', 'away9', 'babies', 'babies_7222', 'babies_exp', 'babies_exp_22', 'backpain', 'ballot', 'bangather', 'batch', 'betrlang', 'bible', 'biblenv', 'biblev', 'biokids', 'blkdsrv', 'blkmblty', 'blktry', 'born', 'brv16', 'brv16bronum', 'brv16cuznum', 'brv16dadnum', 'brv16filnum', 'brv16frndnum', 'brv16gmanum', 'brv16gpanum', 'brv16grand', 'brv16milnum', 'brv16momnum', 'brv16oth', 'brv16othnum', 'brv16par', 'brv16partnum', 'brv16sib', 'brv16silnum', 'brv16sisnum', 'brv16sp', 'brv16spnum', 'brv5', 'brv5bronum', 'brv5child', 'brv5chinum', 'brv5cowknum', 'brv5cuznum', 'brv5dadnum', 'brv5daunum', 'brv5filnum', 'brv5frndnum', 'brv5gmanum', 'brv5gpanum', 'brv5grand', 'brv5milnum', 'brv5momnum', 'brv5oth', 'brv5othnum', 'brv5par', 'brv5partnum', 'brv5sib', 'brv5silnum', 'brv5sisnum', 'brv5sonnum', 'brv5sp', 'brv5spnum', 'buyvalue', 'cabgndr', 'cappun', 'carecost', 'careprov', 'caresik1', 'childs', 'childsinhh', 'childsinhh_2122', 'childs_exp', 'childs_exp_22', 'chldidel', 'chngtme', 'class', 'clsrltv', 'codeg', 'coden', 'coden_1222', 'coeduc', 'coevwork', 'cofund', 'cohabok', 'cohort', 'cohrs1', 'cohrs2', 'coind10','coisco08', 'cojew', 'colath', 'colcom', 'colcomy', 'colmslm', 'colrac', 'compperf', 'comprend', 'compuse', 'compwage', 'conarmy', 'conbus', 'conclerg', 'condemnd', 'condom', 'coneduc', 'confed', 'confedvacy', 'confinan', 'conhlth', 'coninc', 'conjudge', 'conlabor', 'conlegis', 'conmedic', 'conpharvacy', 'conpress','conrinc', 'consci', 'consent', 'contv', 'coocc10', 'cooking1', 'coop', 'coother', 'copres10', 'copres105plus', 'corel', 'cosei10', 'cosei10educ', 'cosei10inc', 'courts', 'courtsnv', 'courtsv', 'covemply', 'covid12', 'cowksup', 'cowrkhlp', 'cowrkint', 'cowrkslf', 'cowrkslf2', 'cowrkslffam', 'cowrksta', 'crack30', 'cvdarmus', 'cvdarpo', 'cvdart', 'cvdclass', 'cvdcreat', 'cvdlvmus', 'cvdmov', 'cvdpod', 'cvdrdg', 'cvdstmus', 'cvdstpo', 'cvdtour', 'dateintv', 'defpensn', 'degree', 'denom', 'denom16', 'denom16_7322', 'denom_7222', 'denom_next', 'depress', 'deptperf', 'diabetes', 'dipged', 'dipged_1222', 'disblty', 'discaff', 'discaffm', 'discaffw', 'discaffwnv', 'discaffwv', 'disrspct', 'divlaw', 'divlawnv', 'divlawv', 'divorce', 'docalt', 'docearn', 'docsat1', 'docskls', 'doctrst', 'docvst', 'drinkday1', 'dwelling', 'dwelling_8222', 'dwellpre', 'dwelown', 'dwelown16', 'earnrs', 'earnrs_7222', 'educ', 'eldcost', 'eldfnce', 'eldhelp', 'emailhr','emailmin', 'empinput', 'emptrain', 'endsmeet', 'eqwlth', 'esop', 'eth1', 'eth2', 'eth3', 'ethnic', 'ethregion1', 'ethregion10', 'ethregion11', 'ethregion12', 'ethregion13', 'ethregion14', 'ethregion15', 'ethregion16', 'ethregion17', 'ethregion18', 'ethregion19', 'ethregion2', 'ethregion20', 'ethregion21', 'ethregion22', 'ethregion23', 'ethregion24', 'ethregion25', 'ethregion26', 'ethregion27', 'ethregion28', 'ethregion29', 'ethregion3', 'ethregion30', 'ethregion31', 'ethregion32', 'ethregion33', 'ethregion34', 'ethregion35', 'ethregion36', 'ethregion37', 'ethregion38', 'ethregion39', 'ethregion4', 'ethregion40', 'ethregion41','ethregion42', 'ethregion43', 'ethregion44', 'ethregion45', 'ethregion46', 'ethregion47', 'ethregion48', 'ethregion49', 'ethregion5', 'ethregion50', 'ethregion51', 'ethregion52', 'ethregion53', 'ethregion54', 'ethregion55', 'ethregion56', 'ethregion57', 'ethregion58', 'ethregion59', 'ethregion6', 'ethregion60', 'ethregion61', 'ethregion62', 'ethregion63', 'ethregion64', 'ethregion65', 'ethregion66', 'ethregion67', 'ethregion68', 'ethregion69', 'ethregion7', 'ethregion70', 'ethregion71', 'ethregion72', 'ethregion73', 'ethregion74', 'ethregion75', 'ethregion76', 'ethregion77', 'ethregion78', 'ethregion79', 'ethregion8', 'ethregion80', 'ethregion81', 'ethregion82', 'ethregion83', 'ethregion84', 'ethregion85', 'ethregion86', 'ethregion87', 'ethregion88', 'ethregion89', 'ethregion9', 'ethregion90', 'ethregion91', 'ethregion92', 'ethregion93', 'ethregion94', 'ethregion95', 'ethworld1', 'ethworld2', 'ethworld3', 'ethworld4', 'ethworld5', 'ethworld6', 'ethworld7', 'ethworld8', 'ethworld9', 'evcrack', 'evidu', 'evpaidsx', 'evstray', 'evwork', 'execgndr', 'extr2021', 'extrapay', 'extraval1', 'extrayr', 'fair', 'fairearn', 'fairnv', 'fairv', 'famdif16', 'famdif16y', 'famgen', 'famgen_7522', 'famgen_exp', 'famgen_exp_22', 'family16', 'famsuffr', 'famvswk', 'famvswk1', 'famwkbst', 'famwklst', 'famwkoff', 'fear', 'fechld', 'fechld2', 'feeldown', 'feelevel', 'feelnerv','feeused', 'fefam', 'fehire', 'fejobaff', 'femself', 'fepol', 'fepolnv', 'fepolv', 'fepresch', 'fepresch2', 'finalter', 'finrela', 'firstkidsex', 'fluvax', 'form', 'formwt', 'fringeok', 'frndfam', 'frndsex', 'frtvegs', 'fucitzn', 'fucitznnv', 'fucitznv', 'fund', 'fund16', 'fund_next', 'gender1', 'gender10', 'gender11', 'gender12', 'gender13', 'gender14', 'gender2', 'gender3', 'gender4', 'gender5', 'gender6', 'gender7', 'gender8', 'gender9', 'gestate', 'getahead', 'getaheadnv', 'getaheadv', 'god', 'goodlife', 'granborn', 'grass', 'grassnv', 'grassv', 'gunlaw', 'handmove', 'hapcohab', 'hapmar', 'happy', 'happy7', 'haveinfo', 'health', 'health1', 'healthissp', 'hefinfo1', 'height', 'helpblk', 'helpful', 'helpfulnv', 'helpfulv', 'helpnot', 'helpoth', 'helppoor', 'helpsick', 'hhclean1', 'hhrace', 'hhtype', 'hhtype1', 'hhtype1_exp', 'hispanic', 'hispanic_0022', 'hivafraid', 'hivdscrm', 'hivimmrl', 'hivtest', 'hivtest1', 'hivtest1_0622', 'hivtest2', 'hivtest2_0622', 'hlpequip', 'hlthacc1', 'hlthacc2', 'hlthacc3', 'hlthacc4', 'hlthbeh', 'hlthbtr', 'hlthconf', 'hlthctzn', 'hlthdays', 'hlthdep', 'hlthdmg', 'hlthenv', 'hlthgene', 'hlthgov', 'hlthinf', 'hlthmore', 'hlthnot', 'hlthpain', 'hlthpoor', 'hlthprb', 'hlthsat', 'hlthstrt', 'hlthtax', 'hlthwbanx', 'hlthwblif', 'hlthwbvax', 'hlthweb', 'homekid', 'homosex', 'hompop', 'hompoph', 'hompop_7222', 'hompop_exp', 'hompop_exp_22', 'housewrk', 'hrs1', 'hrs2', 'hrsrelax', 'huadd', 'huaddwhy', 'hubbywk1', 'huclean', 'hunt', 'hunt1', 'hurtatwk', 'hvylift', 'hyperten', 'idu30', 'if16who', 'if20who', 'immcrime', 'immfate', 'immjobs', 'immunbetr', 'incom16', 'income', 'income16', 'incuspop', 'indperf', 'indus10', 'indus10_next', 'instype01', 'instype02', 'instype03', 'instype04', 'intethn', 'inthisp', 'intid', 'intlblks', 'intlhsps', 'intlwhts', 'intrace1', 'intrace2', 'intrace3', 'isco08', 'issp', 'jew', 'jew16', 'jew_next', 'jobfind', 'jobfind1', 'joblose', 'jobsecok', 'jobvsfa1', 'kidnofre', 'kidsinhh', 'kidsocst', 'kidssol', 'kidssolnv', 'kidssolv', 'kidsund18', 'kish', 'knowschd1', 'knowwhat', 'laidoff', 'laundry1', 'learnnew', 'letdie1', 'letdie1y', 'letin1a', 'letinasn1', 'letinhsp1', 'libath', 'libathy', 'libcom', 'libcomy', 'libmslm', 'libmslmy', 'librac', 'libracy', 'life', 'lifein5', 'lifenow', 'liveblks', 'lngrltnshp', 'lngthinv', 'localnum', 'maborn', 'madeg', 'maeduc', 'maind10', 'maisco08', 'major1', 'major1_1222', 'major2', 'major2_1222', 'malekids', 'manvsemp', 'maocc10', 'mapres10', 'mapres105plus', 'mar1', 'mar10', 'mar11', 'mar12', 'mar13', 'mar14','mar2', 'mar3', 'mar4', 'mar5', 'mar6', 'mar7', 'mar8', 'mar9', 'marasian', 'marblk', 'marcohab', 'marhisp', 'marital', 'marlegit', 'marmakid', 'marpakid', 'marsame', 'martype', 'marwht', 'mascself', 'masei10', 'masei10educ', 'masei10inc', 'matesex', 'mawrkgrw', 'mawrkslf', 'mawrkslf2', 'mawrkslffam', 'medbest', 'medcommt', 'medpay', 'medwtlst', 'meovrwrk', 'migage', 'mighist', 'misswork', 'mnthsusa', 'mntlhlth', 'mobile16', 'mobilsurv', 'mode', 'modesequence', 'moredays', 'mustwork', 'myskills', 'nataid', 'nataidy', 'natarms', 'natarmsy', 'natchld', 'natcity', 'natcityy', 'natcrime', 'natcrimy', 'natdrug', 'natdrugy', 'nateduc', 'nateducy', 'natenrgy', 'natenvir', 'natenviy', 'natfare', 'natfarey', 'natheal', 'nathealy', 'natmass', 'natpark', 'natrace', 'natracey', 'natroad', 'natsci', 'natsoc', 'natspac', 'natspacy', 'neaeligible', 'neastatus', 'neisafe', 'news', 'nexteligible', 'nextgen', 'nextstatus', 'nmbrkids', 'nointerest', 'nonbinkids', 'notsmart', 'ntwkhard', 'numemps', 'numemps_0422', 'numkids', 'nummen', 'numorg1', 'numwomen', 'obey', 'occ10', 'occ10_next', 'old1', 'old10', 'old11', 'old12', 'old13', 'old14', 'old2', 'old3', 'old4', 'old5', 'old6', 'old7', 'old8', 'old9', 'opdevel', 'orginc', 'oth16', 'other', 'othersex', 'other_next', 'othlang', 'othlang1', 'othlang1_0022', 'othlang2', 'othlang2_0022', 'oversamp', 'overwork', 'owngun', 'ownstock', 'paborn', 'padeg', 'paeduc', 'paidlv', 'paidlvdv', 'paidsex', 'painarms', 'paind10', 'paisco08', 'pandinc', 'pandmet', 'paocc10', 'papres10', 'papres105plus', 'parborn', 'parsol', 'partfull', 'partners', 'partners_8822', 'partnrs5', 'partteam', 'partyid', 'pasei10', 'pasei10educ', 'pasei10inc', 'pawrkslf', 'pawrkslf2', 'pawrkslffam', 'perfrt', 'phase', 'phone', 'phyeffrt', 'physact', 'physhlth', 'pikupsex', 'pillok', 'pistol', 'plan1', 'polabuse', 'polabusey', 'polattak', 'polattaky', 'polescap', 'polhitok', 'polhitoky', 'polmurdr', 'polviews', 'poorserv', 'popespks', 'popular', 'pornlaw', 'posslq', 'posslqy', 'postlife', 'postlifenv', 'postlifev', 'pray', 'prayer', 'prayernv', 'prayerv', 'premarsx', 'pres16', 'pres20', 'prestg10', 'prestg105plus', 'pres_ts', 'preteen', 'preteen_7222', 'preteen_exp', 'preteen_exp_22', 'prnt', 'prntadvs', 'prntbhav', 'prntcre', 'prntfnce', 'prntlk', 'prntmdl', 'prntply', 'prodctiv', 'promtefr', 'promteok', 'proudemp', 'psysamephys', 'ptnrornt', 'ptnrsxbrth', 'ptnrsxnow', 'racdif1', 'racdif1x', 'racdif2', 'racdif2x', 'racdif3', 'racdif3x', 'racdif4', 'racdif4x', 'race', 'raceacs1', 'raceacs10', 'raceacs11', 'raceacs12', 'raceacs13', 'raceacs14', 'raceacs14_2122', 'raceacs15', 'raceacs16', 'raceacs2', 'raceacs3', 'raceacs4', 'raceacs5', 'raceacs6', 'raceacs7', 'raceacs8', 'raceacs9', 'racecen1', 'racecen1_0022', 'racecen2', 'racecen2_0022', 'racecen3', 'racecen3_0022', 'racerank1', 'racerank2', 'racerank3', 'raclive', 'racopen', 'racopennv', 'racopenv', 'racwork', 'radptprnt', 'radptprnt18', 'rank', 'ratetone', 'rbioprnt', 'rbioprnt18', 'rchild18', 'realinc', 'realrinc', 'reborn', 'reg16', 'reg16_7222', 'region', 'region_7222', 'relactiv', 'relate1', 'relate10', 'relate11', 'relate12', 'relate13', 'relate14', 'relate2', 'relate3', 'relate4', 'relate5', 'relate6', 'relate7', 'relate8', 'relate9', 'relatsex', 'relhh1', 'relhh10', 'relhh11', 'relhh12', 'relhh13', 'relhh14', 'relhh2', 'relhh3', 'relhh4', 'relhh5', 'relhh6', 'relhh7', 'relhh8', 'relhh9', 'relhhd1', 'relhhd10', 'relhhd11', 'relhhd12', 'relhhd13', 'relhhd14', 'relhhd2', 'relhhd3', 'relhhd4', 'relhhd5', 'relhhd6', 'relhhd7', 'relhhd8', 'relhhd9', 'relig', 'relig16', 'relig_next', 'reliten', 'relitennv', 'relitenv', 'relpersn', 'relsp1', 'relsp10', 'relsp11', 'relsp12', 'relsp13', 'relsp14', 'relsp2', 'relsp3', 'relsp4', 'relsp5', 'relsp6', 'relsp7', 'relsp8', 'relsp9', 'reltrad', 'reltrad16', 'reqmasks', 'res16', 'respect', 'respnum', 'respnumh', 'respond', 'rfamlook', 'rfmly18', 'rgprnt18', 'rgprntu18', 'rgroomed', 'rheight', 'rhhwork', 'rhlthend', 'richwork', 'rifle', 'rincblls', 'rincom16', 'rincome', 'rlooks', 'rlyrltv', 'rnrltu18', 'rntrltd18', 'rowngun', 'rplace', 'rplace_7522', 'rprnt18', 'rrltu18', 'rsblng18', 'rspgndr', 'rsprltv1', 'rsprltv2', 'rstpprnt', 'rstpprnt18', 'rvisitor', 'safefrst', 'safehlth', 'safetywk', 'sampcode', 'sample', 'satfin', 'satjob', 'satjob1', 'savesoul', 'scientbe', 'scientgo', 'scienthe', 'secondwk', 'sei10', 'sei10educ', 'sei10inc', 'sex', 'sexbirth1', 'sexeduc', 'sexfreq', 'sexnow1', 'sexornt', 'sexsex', 'sexsex5', 'sharehhw', 'shop1', 'shotgun', 'shutbus', 'sibs', 'sibs_7222', 'size', 'slfmangd', 'slpprblm', 'smokeday', 'socbar', 'socfrend', 'socommun', 'socrel', 'spaneng', 'spanint', 'spanking', 'spanself', 'spdeg', 'spden', 'spden_7322', 'speduc', 'spevwork', 'spfalook', 'spfund', 'sphhwork', 'sphrs1', 'sphrs2', 'spind10', 'spisco08', 'spjew', 'spkath', 'spkathy', 'spkcom', 'spkcomy', 'spklang', 'spkmslm', 'spkmslmy', 'spkrac', 'spkracy', 'spocc10', 'spother', 'sppres10', 'sppres105plus', 'sprel', 'sprtprsn', 'spsei10', 'spsei10educ', 'spsei10inc', 'spvtrfair', 'spwksup', 'spwrkslf', 'spwrkslf2', 'spwrkslffam', 'spwrksta', 'srcbelt', 'ssfchild', 'ssmchild', 'stayhome', 'stockops', 'stockoptyr', 'stockval1', 'stockyr', 'stockyrval', 'stoptyramt', 'stress', 'stress12', 'strmgtsup', 'strredpg', 'subsamprate', 'suicide1', 'suicide1g', 'suicide2', 'suicide2g', 'suicide3', 'suicide3g', 'suicide4', 'suicide4g', 'supcares', 'supervis', 'suphelp', 'svyenjoy', 'svyid1', 'svyid2', 'tax', 'teamsafe', 'teens', 'teensex', 'teens_7222', 'teens_exp', 'teens_exp_22', 'thnkself', 'threaten', 'tiredhm1', 'tiredwk1', 'toofast', 'toofewwk', 'totalincentive', 'trdunion', 'trust', 'trustman', 'trustnv', 'trustv', 'trynewjb', 'tvhours', 'unemp', 'union', 'union1', 'univgndr', 'unrelat', 'unrelat_7222', 'uscitzn', 'uscitznnv', 'uscitznv', 'uscitzn_0822', 'usedup', 'usetech', 'usewww', 'uswary', 'uswarynv', 'uswaryv', 'vaxdoharm', 'vaxhstncy', 'vaxkids', 'vaxsafe','version', 'vetyears', 'visitors', 'vote16', 'vote20', 'vote_ts', 'vpsu', 'vstrat', 'waypaid', 'wealth', 'webdocexp', 'webdradv', 'webhltbeh', 'webmob', 'webrely', 'websympt', 'weekswrk', 'weight', 'weight_issp', 'whatco2', 'whatma2', 'whatpa2', 'whatslf2', 'whatsp2', 'where1', 'where10', 'where11', 'where12', 'where13', 'where14', 'where2', 'where3', 'where4', 'where5', 'where6', 'where7', 'where8', 'where9', 'whoelse1', 'whoelse2', 'whoelse3', 'whoelse4', 'whoelse5', 'whoelse6', 'whywkhme', 'widowed', 'wkageism', 'wkdecide', 'wkfreedm', 'wkharoth', 'wkharsex', 'wkpraise', 'wkracism', 'wksexism', 'wksmooth', 'wksub', 'wksub1','wksubs', 'wksubs1', 'wksup', 'wksup1', 'wksups', 'wksups1', 'wkvsfam', 'wlthblks', 'wlthhsps', 'wlthwhts', 'worda', 'wordb', 'wordc', 'wordd', 'worde', 'wordf', 'wordg', 'wordh', 'wordi', 'wordj', 'wordk', 'wordl', 'wordn', 'wordsum', 'wordsum7', 'wordsumnew', 'wordsumold', 'workblks', 'workdiff', 'workfast', 'workfor1', 'workhard', 'workhsps', 'worksick', 'workwhts', 'worry', 'wrkbaby', 'wrkgovt1', 'wrkgovt2', 'wrkhome', 'wrkmeangfl', 'wrksch', 'wrksched', 'wrkslf', 'wrkslffam', 'wrkstat', 'wrktime', 'wrktype', 'wrkwayup', 'wrkwayup_next', 'wtssnrps', 'wtssnrps_nea', 'wtssnrps_next', 'wtssps', 'wtssps_nea', 'wtssps_next', 'wwwhr', 'wwwmin', 'xmarsex', 'xmovie', 'xmoviey', 'xnorcsiz', 'yearsjob', 'yearsusa', 'yearval1', 'yousup', 'yrarmus', 'yrarpo', 'yrartxbt', 'yrclass', 'yrcreat', 'yrfnce', 'yrlvmus', 'yrmovie', 'yrpod', 'yrrdg', 'yrstmus', 'yrstpo', 'yrtour', 'zodiac', 'baselinestatus', 'amerstatus', 'wtssps_as', 'wtssnrps_as']
+Translations on page 64 to 107 of codebook
+
+
+mean      1.789181     2.439167     1.221941     1.031763       1.035998   
+std       3.209774     1.202477     0.415627     1.278094       1.297315   
+min       0.000000     1.000000     1.000000     0.000000       0.000000   
+25%       0.000000     1.000000     1.000000     0.000000       0.000000   
+50%       0.000000     2.000000     1.000000     1.000000       1.000000   
+75%       1.000000     3.000000     1.000000     1.000000       1.000000   
+max       8.000000     5.000000     2.000000     9.000000       9.000000   
+
+          partnrs5     partteam      partyid      pasei10  pasei10educ  \
+count  1869.000000  2355.000000  4113.000000  2774.000000  2772.000000   
+mean      1.609417     1.400425     2.818624    47.356597    52.277092   
+std       1.789643     0.490088     2.042752    21.449862    27.434905   
+min       0.000000     1.000000     0.000000    10.600000     9.800000   
+25%       1.000000     1.000000     1.000000    28.700000    25.400000   
+50%       1.000000     1.000000     3.000000    42.800000    46.100000   
+75%       2.000000     2.000000     4.000000    65.100000    76.900000   
+max       9.000000     2.000000     7.000000    92.800000    99.700000   
+
+        pasei10inc     pawrkslf    pawrkslf2  pawrkslffam       perfrt  \
+count  2774.000000  3290.000000  3290.000000   3241.00000  1098.000000   
+mean     48.882120     1.780851     1.329787      1.80469     3.048270   
+std      24.089761     0.413733     0.665161      0.39650     0.897907   
+min       3.200000     1.000000     1.000000      1.00000     1.000000   
+25%      30.300000     2.000000     1.000000      2.00000     2.000000   
+50%      42.800000     2.000000     1.000000      2.00000     3.000000   
+75%      70.700000     2.000000     1.000000      2.00000     4.000000   
+max      96.000000     2.000000     3.000000      2.00000     5.000000   
+
+             phase        phone     phyeffrt      physact     physhlth  \
+count  3544.000000  4149.000000  2354.000000  1334.000000  2305.000000   
+mean      1.209932     4.228248     3.567120     3.365067     2.665510   
+std       0.407317     2.160108     1.191751     1.276251     6.106232   
+min       1.000000     1.000000     1.000000     1.000000     0.000000   
+25%       1.000000     2.000000     3.000000     2.000000     0.000000   
+50%       1.000000     6.000000     4.000000     4.000000     0.000000   
+75%       1.000000     6.000000     5.000000     4.000000     2.000000   
+max       2.000000     6.000000     5.000000     5.000000    30.000000   
+
+         pikupsex       pillok       pistol       plan1     polabuse  \
+count  209.000000  2714.000000  2706.000000  602.000000  1379.000000   
+mean     1.425837     2.035741     1.787140    2.867110     1.906454   
+std      0.495657     0.990841     0.473861    1.077194     0.291302   
+min      1.000000     1.000000     1.000000    1.000000     1.000000   
+25%      1.000000     1.000000     2.000000    2.000000     2.000000   
+50%      1.000000     2.000000     2.000000    3.000000     2.000000   
+75%      2.000000     3.000000     2.000000    4.000000     2.000000   
+max      2.000000     4.000000     3.000000    6.000000     2.000000   
+
+         polabusey     polattak    polattaky     polescap     polhitok  \
+count  1379.000000  1371.000000  1374.000000  2729.000000  1364.000000   
+mean      1.891226     1.250912     1.221980     1.421766     1.359238   
+std       0.311469     0.433696     0.415729     0.493932     0.479953   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       2.000000     1.000000     1.000000     1.000000     1.000000   
+50%       2.000000     1.000000     1.000000     1.000000     1.000000   
+75%       2.000000     2.000000     1.000000     2.000000     2.000000   
+max       2.000000     2.000000     2.000000     2.000000     2.000000   
+
+         polhitoky     polmurdr     polviews     poorserv    popespks  \
+count  1359.000000  2737.000000  4022.000000  2725.000000  843.000000   
+mean      1.365710     1.791377     3.959722     4.746055    2.677343   
+std       0.481806     0.406398     1.508121     1.254400    1.081170   
+min       1.000000     1.000000     1.000000     1.000000    1.000000   
+25%       1.000000     2.000000     3.000000     4.000000    2.000000   
+50%       1.000000     2.000000     4.000000     5.000000    3.000000   
+75%       2.000000     2.000000     5.000000     6.000000    3.000000   
+max       2.000000     2.000000     7.000000     6.000000    5.000000   
+
+           popular      pornlaw       posslq      posslqy     postlife  \
+count  2694.000000  2732.000000  2049.000000  2052.000000  1576.000000   
+mean      4.589458     1.777818     2.514397     2.510721     1.187183   
+std       0.731230     0.533786     1.386286     1.367371     0.390182   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       4.000000     1.000000     1.000000     1.000000     1.000000   
+50%       5.000000     2.000000     2.000000     2.000000     1.000000   
+75%       5.000000     2.000000     4.000000     4.000000     1.000000   
+max       5.000000     3.000000     4.000000     4.000000     2.000000   
+
+        postlifenv   postlifev         pray       prayer    prayernv  \
+count  1133.000000  823.000000  4100.000000  1144.000000  797.000000   
+mean      1.285084    1.195626     3.160000     1.484266    1.366374   
+std       0.451654    0.396923     1.943521     0.499971    0.482116   
+min       1.000000    1.000000     1.000000     1.000000    1.000000   
+25%       1.000000    1.000000     1.000000     1.000000    1.000000   
+50%       1.000000    1.000000     3.000000     1.000000    1.000000   
+75%       2.000000    1.000000     5.000000     2.000000    2.000000   
+max       2.000000    2.000000     6.000000     2.000000    2.000000   
+
+          prayerv     premarsx       pres16       pres20     prestg10  \
+count  590.000000  2706.000000  2451.000000  2797.000000  3326.000000   
+mean     1.357627     3.338507     1.530804     1.427959    44.924835   
+std      0.479708     1.081508     0.662224     0.590438    13.571545   
+min      1.000000     1.000000     1.000000     1.000000    16.000000   
+25%      1.000000     3.000000     1.000000     1.000000    35.000000   
+50%      1.000000     4.000000     1.000000     1.000000    45.000000   
+75%      2.000000     4.000000     2.000000     2.000000    54.000000   
+max      2.000000     4.000000     4.000000     4.000000    80.000000   
+
+       prestg105plus      pres_ts      preteen  preteen_7222  preteen_exp  \
+count    3326.000000  2797.000000  2066.000000   2066.000000  2034.000000   
+mean       49.806073     1.427959     0.189255      0.201839     0.209931   
+std        25.889365     0.590438     0.511846      0.569113     0.508346   
+min         5.000000     1.000000     0.000000      0.000000     0.000000   
+25%        27.000000     1.000000     0.000000      0.000000     0.000000   
+50%        49.000000     1.000000     0.000000      0.000000     0.000000   
+75%        73.000000     2.000000     0.000000      0.000000     0.000000   
+max        97.000000     4.000000     2.000000      4.000000     2.000000   
+
+       preteen_exp_22        prnt     prntadvs     prntbhav      prntcre  \
+count     2034.000000  653.000000  1294.000000  1286.000000  1225.000000   
+mean         0.219272    1.180704     2.962133     3.003888     2.622857   
+std          0.549652    0.385068     0.350830     0.333570     0.702330   
+min          0.000000    1.000000     1.000000     1.000000     1.000000   
+25%          0.000000    1.000000     3.000000     3.000000     2.000000   
+50%          0.000000    1.000000     3.000000     3.000000     3.000000   
+75%          0.000000    1.000000     3.000000     3.000000     3.000000   
+max          4.000000    2.000000     5.000000     5.000000     5.000000   
+
+          prntfnce       prntlk      prntmdl      prntply    prodctiv  \
+count  1171.000000  1255.000000  1292.000000  1274.000000  2342.00000   
+mean      3.506405     2.678088     3.022446     2.996075     1.99146   
+std       0.783757     0.671799     0.295000     0.328031     0.69225   
+min       1.000000     1.000000     1.000000     1.000000     1.00000   
+25%       3.000000     2.000000     3.000000     3.000000     2.00000   
+50%       3.000000     3.000000     3.000000     3.000000     2.00000   
+75%       4.000000     3.000000     3.000000     3.000000     2.00000   
+max       5.000000     5.000000     5.000000     5.000000     4.00000   
+
+          promtefr     promteok     proudemp  psysamephys     ptnrornt  \
+count  2221.000000  2315.000000  2345.000000  2319.000000  1778.000000   
+mean      2.093201     2.337365     1.771002     3.162570     2.928571   
+std       0.943853     0.966938     0.704698     1.178194     0.462389   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       1.000000     2.000000     1.000000     2.000000     3.000000   
+50%       2.000000     2.000000     2.000000     3.000000     3.000000   
+75%       3.000000     3.000000     2.000000     4.000000     3.000000   
+max       4.000000     4.000000     4.000000     5.000000     4.000000   
+
+        ptnrsxbrth    ptnrsxnow      racdif1     racdif1x      racdif2  \
+count  1774.000000  1766.000000  1314.000000  1354.000000  1334.000000   
+mean      1.445885     1.456965     1.441400     1.405465     1.918291   
+std       0.497203     0.519440     0.496743     0.491163     0.274024   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       1.000000     1.000000     1.000000     1.000000     2.000000   
+50%       1.000000     1.000000     1.000000     1.000000     2.000000   
+75%       2.000000     2.000000     2.000000     2.000000     2.000000   
+max       2.000000     4.000000     2.000000     2.000000     2.000000   
+
+          racdif2x      racdif3     racdif3x      racdif4     racdif4x  \
+count  1376.000000  1318.000000  1366.000000  1302.000000  1363.000000   
+mean      1.918605     1.453718     1.434114     1.683564     1.688188   
+std       0.273541     0.498042     0.495822     0.465264     0.463404   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       2.000000     1.000000     1.000000     1.000000     1.000000   
+50%       2.000000     1.000000     1.000000     2.000000     2.000000   
+75%       2.000000     2.000000     2.000000     2.000000     2.000000   
+max       2.000000     2.000000     2.000000     2.000000     2.000000   
+
+              race     raceacs1    raceacs10    raceacs11    raceacs12  \
+count  4085.000000  4098.000000  4098.000000  4098.000000  4098.000000   
+mean      1.512362     0.667643     0.009761     0.002684     0.000732   
+std       0.756724     0.471116     0.098326     0.051746     0.027050   
+min       1.000000     0.000000     0.000000     0.000000     0.000000   
+25%       1.000000     0.000000     0.000000     0.000000     0.000000   
+50%       1.000000     1.000000     0.000000     0.000000     0.000000   
+75%       2.000000     1.000000     0.000000     0.000000     0.000000   
+max       3.000000     1.000000     1.000000     1.000000     1.000000   
+
+         raceacs13    raceacs14  raceacs14_2122    raceacs15    raceacs16  \
+count  4098.000000  4113.000000     4098.000000  4098.000000  4098.000000   
+mean      0.000976     0.006565        0.002440     0.024158     0.043924   
+std       0.031231     0.080765        0.049344     0.153559     0.204951   
+min       0.000000     0.000000        0.000000     0.000000     0.000000   
+25%       0.000000     0.000000        0.000000     0.000000     0.000000   
+50%       0.000000     0.000000        0.000000     0.000000     0.000000   
+75%       0.000000     0.000000        0.000000     0.000000     0.000000   
+max       1.000000     1.000000        1.000000     1.000000     1.000000   
+
+          raceacs2     raceacs3     raceacs4     raceacs5     raceacs6  \
+count  4098.000000  4098.000000  4098.000000  4098.000000  4098.000000   
+mean      0.196925     0.038311     0.020986     0.021962     0.014397   
+std       0.397724     0.191970     0.143354     0.146577     0.119136   
+min       0.000000     0.000000     0.000000     0.000000     0.000000   
+25%       0.000000     0.000000     0.000000     0.000000     0.000000   
+50%       0.000000     0.000000     0.000000     0.000000     0.000000   
+75%       0.000000     0.000000     0.000000     0.000000     0.000000   
+max       1.000000     1.000000     1.000000     1.000000     1.000000   
+
+          raceacs7     raceacs8     raceacs9     racecen1  racecen1_0022  \
+count  4098.000000  4098.000000  4098.000000  4085.000000    4085.000000   
+mean      0.008541     0.007321     0.005612     2.592411       2.587026   
+std       0.092032     0.085257     0.074715     3.765675       3.751275   
+min       0.000000     0.000000     0.000000     1.000000       1.000000   
+25%       0.000000     0.000000     0.000000     1.000000       1.000000   
+50%       0.000000     0.000000     0.000000     1.000000       1.000000   
+75%       0.000000     0.000000     0.000000     2.000000       2.000000   
+max       1.000000     1.000000     1.000000    16.000000      16.000000   
+
+         racecen2  racecen2_0022   racecen3  racecen3_0022    racerank1  \
+count  224.000000     224.000000  27.000000      27.000000  4085.000000   
+mean     4.254464       4.187500   5.037037       5.000000     2.587026   
+std      4.365835       4.234243   5.522552       5.463163     3.751275   
+min      1.000000       1.000000   1.000000       1.000000     1.000000   
+25%      1.000000       1.000000   1.000000       1.000000     1.000000   
+50%      3.000000       3.000000   3.000000       3.000000     1.000000   
+75%      4.250000       4.250000   5.500000       5.500000     2.000000   
+max     16.000000      16.000000  16.000000      16.000000    16.000000   
+
+        racerank2  racerank3      raclive      racopen   racopennv  \
+count  224.000000  27.000000  3843.000000  1173.000000  751.000000   
+mean     4.187500   5.000000     1.195941     1.848252    1.810919   
+std      4.234243   5.463163     0.396975     0.390795    0.391834   
+min      1.000000   1.000000     1.000000     1.000000    1.000000   
+25%      1.000000   1.000000     1.000000     2.000000    2.000000   
+50%      3.000000   3.000000     1.000000     2.000000    2.000000   
+75%      4.250000   5.500000     1.000000     2.000000    2.000000   
+max     16.000000  16.000000     2.000000     3.000000    2.000000   
+
+         racopenv      racwork   radptprnt  radptprnt18         rank  \
+count  771.000000  1524.000000  453.000000   141.000000  2017.000000   
+mean     2.038911     2.414042    1.898455     1.865248     4.751611   
+std      0.495214     0.793829    0.302383     0.342676     1.872758   
+min      1.000000     1.000000    1.000000     1.000000     1.000000   
+25%      2.000000     2.000000    2.000000     2.000000     4.000000   
+50%      2.000000     2.000000    2.000000     2.000000     5.000000   
+75%      2.000000     3.000000    2.000000     2.000000     6.000000   
+max      3.000000     5.000000    2.000000     2.000000    10.000000   
+
+          ratetone    rbioprnt  rbioprnt18    rchild18        realinc  \
+count  1680.000000  655.000000  175.000000  483.000000    3665.000000   
+mean      2.497619    1.181679    1.108571    1.652174   36684.346281   
+std       2.073111    0.385875    0.311993    0.476774   37898.284668   
+min       1.000000    1.000000    1.000000    1.000000     204.500000   
+25%       1.000000    1.000000    1.000000    1.000000   11247.500000   
+50%       2.000000    1.000000    1.000000    2.000000   22495.000000   
+75%       3.000000    1.000000    1.000000    2.000000   40900.000000   
+max      10.000000    2.000000    2.000000    2.000000  135195.964320   
+
+            realrinc       reborn        reg16   reg16_7222       region  \
+count    2345.000000  4048.000000  4137.000000  4137.000000  4149.000000   
+mean    28332.178269     1.611413     2.352429     4.547015     2.730055   
+std     32331.601264     0.487489     1.238697     2.818799     0.986366   
+min       204.500000     1.000000     0.000000     0.000000     1.000000   
+25%      9713.750000     1.000000     1.000000     2.000000     2.000000   
+50%     18405.000000     2.000000     3.000000     5.000000     3.000000   
+75%     33742.500000     2.000000     3.000000     7.000000     3.000000   
+max    141848.328870     2.000000     4.000000     9.000000     4.000000   
+
+       region_7222     relactiv  relate1  relate10   relate11  relate12  \
+count  4149.000000  4088.000000   2064.0  3.000000  47.000000  6.000000   
+mean      5.289949     2.735078      1.0  3.666667   5.808511  6.000000   
+std       2.462065     2.211813      0.0  1.154701   2.028474  2.366432   
+min       1.000000     1.000000      1.0  3.000000   3.000000  3.000000   
+25%       3.000000     1.000000      1.0  3.000000   3.000000  4.000000   
+50%       5.000000     2.000000      1.0  3.000000   6.000000  7.000000   
+75%       7.000000     4.000000      1.0  4.000000   8.000000  7.750000   
+max       9.000000    10.000000      1.0  5.000000   8.000000  8.000000   
+
+       relate13  relate14      relate2     relate3     relate4     relate5  \
+count  2.000000  2.000000  1381.000000  689.000000  415.000000  182.000000   
+mean   7.500000  5.500000     3.442433    3.696662    3.657831    3.950549   
+std    0.707107  3.535534     2.353947    1.521934    1.501539    1.702379   
+min    7.000000  3.000000     2.000000    3.000000    3.000000    3.000000   
+25%    7.250000  4.250000     2.000000    3.000000    3.000000    3.000000   
+50%    7.500000  5.500000     2.000000    3.000000    3.000000    3.000000   
+75%    7.750000  6.750000     3.000000    3.000000    3.000000    5.000000   
+max    8.000000  8.000000     8.000000    8.000000    8.000000    8.000000   
+
+         relate6    relate7    relate8   relate9     relatsex  relhh1  \
+count  76.000000  29.000000  11.000000  6.000000  1716.000000  2064.0   
+mean    4.118421   4.344828   4.181818  3.333333     1.126457     1.0   
+std     1.599726   1.798330   1.778661  0.816497     0.332460     0.0   
+min     3.000000   3.000000   3.000000  3.000000     1.000000     1.0   
+25%     3.000000   3.000000   3.000000  3.000000     1.000000     1.0   
+50%     3.000000   3.000000   3.000000  3.000000     1.000000     1.0   
+75%     5.000000   5.000000   5.500000  3.000000     1.000000     1.0   
+max     8.000000   8.000000   8.000000  5.000000     2.000000     1.0   
+
+        relhh10    relhh11    relhh12    relhh13    relhh14       relhh2  \
+count   3.00000  47.000000   6.000000   2.000000   2.000000  1381.000000   
+mean   29.00000  20.510638  23.000000  13.500000  29.500000     8.335988   
+std    20.78461  14.276573  14.268847   6.363961  16.263456    13.304519   
+min     5.00000   3.000000   9.000000   9.000000  18.000000     2.000000   
+25%    23.00000   8.500000  13.750000  11.250000  23.750000     2.000000   
+50%    41.00000  16.000000  17.000000  13.500000  29.500000     2.000000   
+75%    41.00000  41.000000  35.250000  15.750000  35.250000     3.000000   
+max    41.00000  43.000000  41.000000  18.000000  41.000000    43.000000   
+
+           relhh3      relhh4      relhh5     relhh6    relhh7     relhh8  \
+count  689.000000  415.000000  182.000000  76.000000  29.00000  11.000000   
+mean    35.198839   35.640964   33.076923  28.973684  28.00000  29.363636   
+std     12.225697   11.753662   13.711898  16.189687  16.25467  16.415071   
+min      3.000000    3.000000    3.000000   5.000000   5.00000   5.000000   
+25%     41.000000   41.000000   18.250000   9.000000  11.00000  12.000000   
+50%     41.000000   41.000000   41.000000  41.000000  41.00000  41.000000   
+75%     41.000000   41.000000   41.000000  41.000000  41.00000  41.000000   
+max     43.000000   43.000000   43.000000  43.000000  43.00000  41.000000   
+
+          relhh9  relhhd1  relhhd10   relhhd11   relhhd12   relhhd13  \
+count   6.000000   2064.0  3.000000  47.000000   6.000000   2.000000   
+mean   35.000000      1.0  4.333333   9.425532  10.666667  13.500000   
+std    14.696938      0.0  0.577350   5.539364   5.988879   6.363961   
+min     5.000000      1.0  4.000000   3.000000   4.000000   9.000000   
+25%    41.000000      1.0  4.000000   4.000000   5.250000  11.250000   
+50%    41.000000      1.0  4.000000   8.000000  11.000000  13.500000   
+75%    41.000000      1.0  4.500000  14.500000  15.250000  15.750000   
+max    41.000000      1.0  5.000000  19.000000  18.000000  18.000000   
+
+        relhhd14      relhhd2     relhhd3     relhhd4     relhhd5    relhhd6  \
+count   2.000000  1381.000000  689.000000  415.000000  182.000000  76.000000   
+mean   11.000000     3.344678    5.341074    5.330120    5.747253   5.513158   
+std     9.899495     3.205965    3.454616    3.515244    3.856811   2.923438   
+min     4.000000     2.000000    3.000000    3.000000    3.000000   4.000000   
+25%     7.500000     2.000000    4.000000    4.000000    4.000000   4.000000   
+50%    11.000000     2.000000    4.000000    4.000000    4.000000   4.000000   
+75%    14.500000     3.000000    4.000000    4.000000    5.000000   5.250000   
+max    18.000000    19.000000   19.000000   19.000000   19.000000  19.000000   
+
+         relhhd7    relhhd8   relhhd9        relig      relig16   relig_next  \
+count  29.000000  11.000000  6.000000  4083.000000  4081.000000  1230.000000   
+mean    6.206897   5.818182  4.166667     2.766348     2.219309     3.043902   
+std     4.056558   3.894051  0.408248     2.222061     1.952921     2.008045   
+min     4.000000   4.000000  4.000000     1.000000     1.000000     1.000000   
+25%     4.000000   4.000000  4.000000     1.000000     1.000000     1.000000   
+50%     4.000000   4.000000  4.000000     2.000000     2.000000     3.000000   
+75%     5.000000   6.000000  4.000000     4.000000     2.000000     4.000000   
+max    19.000000  17.000000  5.000000    13.000000    13.000000    12.000000   
+
+           reliten    relitennv     relitenv     relpersn       relsp1  \
+count  1758.000000  1146.000000  1139.000000  4102.000000  1059.000000   
+mean      2.241752     2.339442     2.588235     2.706972     2.176582   
+std       1.162949     1.226689     1.157190     1.037904     0.383964   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       1.000000     1.000000     2.000000     2.000000     2.000000   
+50%       2.000000     2.000000     2.000000     3.000000     2.000000   
+75%       3.000000     4.000000     4.000000     4.000000     2.000000   
+max       4.000000     4.000000     4.000000     4.000000     3.000000   
+
+       relsp10    relsp11    relsp12    relsp13    relsp14  relsp2  \
+count      1.0  25.000000   4.000000   2.000000   2.000000  1058.0   
+mean      41.0  24.920000  26.500000  23.000000  24.000000     1.0   
+std        NaN  15.002555  17.691806  25.455844  26.870058     0.0   
+min       41.0   5.000000   5.000000   5.000000   5.000000     1.0   
+25%       41.0  12.000000  15.500000  14.000000  14.500000     1.0   
+50%       41.0  19.000000  30.000000  23.000000  24.000000     1.0   
+75%       41.0  41.000000  41.000000  32.000000  33.500000     1.0   
+max       41.0  41.000000  41.000000  41.000000  43.000000     1.0   
+
+           relsp3      relsp4      relsp5     relsp6     relsp7     relsp8  \
+count  523.000000  334.000000  143.000000  61.000000  21.000000   8.000000   
+mean    35.543021   36.826347   34.524476  30.868852  30.095238  25.250000   
+std     11.801339   10.619819   12.894388  15.204687  16.394831  17.177643   
+min      3.000000    4.000000    4.000000   5.000000   5.000000   5.000000   
+25%     41.000000   41.000000   41.000000  16.000000   8.000000   8.000000   
+50%     41.000000   41.000000   41.000000  41.000000  41.000000  29.000000   
+75%     41.000000   41.000000   41.000000  41.000000  41.000000  41.000000   
+max     43.000000   43.000000   43.000000  43.000000  43.000000  41.000000   
+
+       relsp9      reltrad    reltrad16     reqmasks        res16  \
+count     3.0  3749.000000  3622.000000  1283.000000  4140.000000   
+mean     41.0     4.319018     3.782165     1.975058     3.927295   
+std       0.0     2.282506     1.894856     1.084281     1.496159   
+min      41.0     1.000000     1.000000     1.000000     1.000000   
+25%      41.0     2.000000     2.000000     1.000000     3.000000   
+50%      41.0     4.000000     4.000000     2.000000     4.000000   
+75%      41.0     7.000000     4.000000     3.000000     5.000000   
+max      41.0     7.000000     7.000000     4.000000     6.000000   
+
+           respect      respnum     respnumh      respond    rfamlook  \
+count  2361.000000  2065.000000  3540.000000  1467.000000  1287.00000   
+mean      1.734435     1.395157     1.420056     1.351057    13.15540   
+std       0.692114     1.121830     0.862122     0.477463    24.17727   
+min       1.000000     1.000000     1.000000     1.000000     0.00000   
+25%       1.000000     1.000000     1.000000     1.000000     0.00000   
+50%       2.000000     1.000000     1.000000     1.000000     2.00000   
+75%       2.000000     1.000000     2.000000     2.000000    14.00000   
+max       4.000000    12.000000    11.000000     2.000000    97.00000   
+
+          rfmly18    rgprnt18   rgprntu18     rgroomed      rheight  \
+count  382.000000  384.000000  431.000000  1679.000000  1334.000000   
+mean     1.717277    1.955729    1.923434     3.456820    66.763868   
+std      0.450913    0.205965    0.266211     0.804716     4.214665   
+min      1.000000    1.000000    1.000000     1.000000    53.000000   
+25%      1.000000    2.000000    2.000000     3.000000    64.000000   
+50%      2.000000    2.000000    2.000000     3.000000    66.000000   
+75%      2.000000    2.000000    2.000000     4.000000    70.000000   
+max      2.000000    2.000000    2.000000     5.000000    95.000000   
+
+           rhhwork    rhlthend     richwork        rifle     rincblls  \
+count  1312.000000  846.000000  1760.000000  2706.000000  2342.000000   
+mean      9.936738    2.013002     1.350568     1.857724     1.505551   
+std      10.874562    0.771425     0.477284     0.423096     0.500076   
+min       0.000000    1.000000     1.000000     1.000000     1.000000   
+25%       4.000000    2.000000     1.000000     2.000000     1.000000   
+50%       7.000000    2.000000     1.000000     2.000000     2.000000   
+75%      12.000000    2.000000     2.000000     2.000000     2.000000   
+max      97.000000    4.000000     2.000000     3.000000     2.000000   
+
+          rincom16      rincome       rlooks      rlyrltv    rnrltu18  \
+count  2345.000000  2345.000000  1672.000000  1220.000000  401.000000   
+mean     16.907463    10.896802     3.327751     3.209016    1.947631   
+std       5.960440     2.422610     0.787542     1.874596    0.223048   
+min       1.000000     1.000000     1.000000     0.000000    1.000000   
+25%      14.000000    11.000000     3.000000     1.000000    2.000000   
+50%      18.000000    12.000000     3.000000     4.000000    2.000000   
+75%      21.000000    12.000000     4.000000     4.000000    2.000000   
+max      26.000000    12.000000     5.000000     7.000000    2.000000   
+
+        rntrltd18     rowngun       rplace  rplace_7522     rprnt18  \
+count  371.000000  947.000000  2058.000000  2058.000000  435.000000   
+mean     1.760108    1.393875     1.686103     1.666181    1.597701   
+std      0.427594    0.628839     1.712890     1.661961    0.490926   
+min      1.000000    1.000000     1.000000     1.000000    1.000000   
+25%      2.000000    1.000000     1.000000     1.000000    1.000000   
+50%      2.000000    1.000000     1.000000     1.000000    2.000000   
+75%      2.000000    2.000000     1.000000     1.000000    2.000000   
+max      2.000000    3.000000     8.000000     8.000000    2.000000   
+
+          rrltu18    rsblng18      rspgndr     rsprltv1     rsprltv2  \
+count  415.000000  400.000000  1266.000000  1195.000000  1166.000000   
+mean     1.771084    1.777500     3.069510     3.124686     3.549743   
+std      0.420642    0.416446     0.571997     1.808324     1.985919   
+min      1.000000    1.000000     1.000000     1.000000     1.000000   
+25%      2.000000    2.000000     3.000000     1.000000     2.000000   
+50%      2.000000    2.000000     3.000000     3.000000     4.000000   
+75%      2.000000    2.000000     3.000000     4.000000     5.000000   
+max      2.000000    2.000000     5.000000     7.000000     7.000000   
+
+         rstpprnt  rstpprnt18     rvisitor     safefrst     safehlth  \
+count  435.000000  138.000000  4149.000000  2335.000000  2352.000000   
+mean     1.914943    1.913043     1.002169     1.719486     1.730442   
+std      0.279288    0.282798     0.046530     0.720986     0.660324   
+min      1.000000    1.000000     1.000000     1.000000     1.000000   
+25%      2.000000    2.000000     1.000000     1.000000     1.000000   
+50%      2.000000    2.000000     1.000000     2.000000     2.000000   
+75%      2.000000    2.000000     1.000000     2.000000     2.000000   
+max      2.000000    2.000000     2.000000     4.000000     4.000000   
+
+          safetywk     sampcode       sample       satfin       satjob  \
+count  2347.000000  4149.000000  4149.000000  4127.000000  2953.000000   
+mean      1.752876   640.186792    10.291637     2.060577     1.767017   
+std       0.714205    32.045314     0.705933     0.734981     0.813110   
+min       1.000000   601.000000    10.000000     1.000000     1.000000   
+25%       1.000000   611.000000    10.000000     2.000000     1.000000   
+50%       2.000000   637.000000    10.000000     2.000000     2.000000   
+75%       2.000000   662.000000    10.000000     3.000000     2.000000   
+max       4.000000   699.000000    12.000000     3.000000     4.000000   
+
+           satjob1     savesoul     scientbe     scientgo     scienthe  \
+count  2337.000000  4094.000000  1231.000000  1228.000000  1229.000000   
+mean      1.694052     1.617978     1.912266     1.925081     1.710334   
+std       0.750071     0.485941     0.601167     0.602296     0.581248   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       1.000000     1.000000     2.000000     2.000000     1.000000   
+50%       2.000000     2.000000     2.000000     2.000000     2.000000   
+75%       2.000000     2.000000     2.000000     2.000000     2.000000   
+max       4.000000     2.000000     4.000000     4.000000     4.000000   
+
+          secondwk        sei10    sei10educ     sei10inc          sex  \
+count  2366.000000  3326.000000  3322.000000  3326.000000  4126.000000   
+mean      1.852494    48.578322    60.066195    44.432141     1.537082   
+std       0.354685    23.197434    26.966901    26.975984     0.498683   
+min       1.000000    10.600000    12.300000     3.200000     1.000000   
+25%       2.000000    26.900000    35.100000    22.125000     1.000000   
+50%       2.000000    43.000000    58.500000    39.700000     2.000000   
+75%       2.000000    68.600000    83.700000    68.100000     2.000000   
+max       2.000000    92.800000    99.700000    96.000000     2.000000   
+
+         sexbirth1      sexeduc      sexfreq      sexnow1      sexornt  \
+count  4121.000000  2724.000000  1786.000000  4124.000000  1834.000000   
+mean      1.537006     1.124816     2.312430     1.549952     2.874591   
+std       0.498689     0.330571     1.998552     0.524147     0.426327   
+min       1.000000     1.000000     0.000000     1.000000     1.000000   
+25%       1.000000     1.000000     0.000000     1.000000     3.000000   
+50%       2.000000     1.000000     2.000000     2.000000     3.000000   
+75%       2.000000     1.000000     4.000000     2.000000     3.000000   
+max       2.000000     2.000000     6.000000     4.000000     3.000000   
+
+            sexsex      sexsex5    sharehhw       shop1      shotgun  \
+count  1328.000000  1507.000000  617.000000  616.000000  2706.000000   
+mean      1.934488     1.927007    2.760130    2.840909     1.858463   
+std       0.988746     0.981222    1.091956    1.205953     0.422470   
+min       1.000000     1.000000    1.000000    1.000000     1.000000   
+25%       1.000000     1.000000    2.000000    2.000000     2.000000   
+50%       1.000000     1.000000    3.000000    3.000000     2.000000   
+75%       3.000000     3.000000    3.000000    4.000000     2.000000   
+max       3.000000     3.000000    5.000000    6.000000     3.000000   
+
+           shutbus         sibs    sibs_7222         size     slfmangd  \
+count  1242.000000  4112.000000  4112.000000  4136.000000  1104.000000   
+mean      2.175523     2.971304     3.411722   454.090909     1.636775   
+std       1.108801     1.855430     3.000687  1383.191965     0.481147   
+min       1.000000     0.000000     0.000000     0.000000     1.000000   
+25%       1.000000     1.000000     1.000000     9.000000     1.000000   
+50%       2.000000     3.000000     3.000000    39.000000     2.000000   
+75%       3.000000     4.000000     4.000000   199.000000     2.000000   
+max       4.000000     6.000000    36.000000  8078.000000     2.000000   
+
+          slpprblm     smokeday       socbar     socfrend     socommun  \
+count  2357.000000  1337.000000  2755.000000  2754.000000  2760.000000   
+mean      2.283411     1.765146     5.586207     4.267611     5.009783   
+std       0.949641     1.233956     1.549741     1.645672     1.952196   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       2.000000     1.000000     5.000000     3.000000     3.000000   
+50%       2.000000     1.000000     6.000000     4.000000     5.000000   
+75%       3.000000     2.000000     7.000000     5.000000     7.000000   
+max       4.000000     7.000000     7.000000     7.000000     7.000000   
+
+            socrel      spaneng    spanint     spanking    spanself  \
+count  2758.000000  4149.000000  77.000000  2726.000000  139.000000   
+mean      3.629804     1.033984   1.818182     2.395818    2.208633   
+std       1.734774     0.181210   0.388224     0.965822    0.802847   
+min       1.000000     1.000000   1.000000     1.000000    1.000000   
+25%       2.000000     1.000000   2.000000     2.000000    2.000000   
+50%       4.000000     1.000000   2.000000     2.000000    2.000000   
+75%       5.000000     1.000000   2.000000     3.000000    3.000000   
+max       7.000000     2.000000   2.000000     4.000000    3.000000   
+
+             spdeg       spden  spden_7322       speduc    spevwork  \
+count  1711.000000  705.000000  705.000000  1699.000000  597.000000   
+mean      2.043834    4.209929   44.426950    14.482048    1.100503   
+std       1.312939    2.524575   23.043452     3.038446    0.300921   
+min       0.000000    1.000000   10.000000     0.000000    1.000000   
+25%       1.000000    1.000000   18.000000    12.000000    1.000000   
+50%       2.000000    5.000000   50.000000    14.000000    1.000000   
+75%       3.000000    7.000000   70.000000    16.000000    1.000000   
+max       4.000000    7.000000   70.000000    20.000000    2.000000   
+
+         spfalook       spfund    sphhwork       sphrs1     sphrs2  \
+count  601.000000  1580.000000  603.000000  1033.000000  39.000000   
+mean    15.141431     2.168354   12.421227    40.385286  41.102564   
+std     24.082877     0.718531   17.513972    12.949090  12.277054   
+min      0.000000     1.000000    0.000000     0.000000   6.000000   
+25%      0.000000     2.000000    3.000000    40.000000  40.000000   
+50%      4.000000     2.000000    7.000000    40.000000  40.000000   
+75%     20.000000     3.000000   15.000000    45.000000  45.000000   
+max     97.000000     3.000000  168.000000    89.000000  84.000000   
+
+           spind10     spisco08      spjew       spkath      spkathy  \
+count  1357.000000  1360.000000  33.000000  1345.000000  1370.000000   
+mean   6367.379514  4181.459559   2.696970     1.219331     1.211679   
+std    2686.764610  2497.386488   1.131505     0.413947     0.408648   
+min     170.000000   310.000000   1.000000     1.000000     1.000000   
+25%    4870.000000  2330.000000   2.000000     1.000000     1.000000   
+50%    7390.000000  3339.000000   3.000000     1.000000     1.000000   
+75%    8190.000000  5321.000000   3.000000     1.000000     1.000000   
+max    9870.000000  9623.000000   5.000000     2.000000     2.000000   
+
+            spkcom      spkcomy      spklang     spkmslm     spkmslmy  \
+count  1324.000000  1354.000000  1236.000000  1338.00000  1367.000000   
+mean      1.310423     1.323486     1.796117     1.53139     1.571324   
+std       0.462842     0.467979     0.917054     0.49920     0.495068   
+min       1.000000     1.000000     1.000000     1.00000     1.000000   
+25%       1.000000     1.000000     1.000000     1.00000     1.000000   
+50%       1.000000     1.000000     2.000000     2.00000     2.000000   
+75%       2.000000     2.000000     2.250000     2.00000     2.000000   
+max       2.000000     2.000000     4.000000     2.00000     2.000000   
+
+            spkrac      spkracy      spocc10     spother     sppres10  \
+count  1340.000000  1370.000000  1360.000000  107.000000  1360.000000   
+mean      1.495522     1.516788  3904.368382   64.859813    47.141176   
+std       0.500167     0.499901  2733.347127   35.794869    13.566908   
+min       1.000000     1.000000    10.000000   12.000000    17.000000   
+25%       1.000000     1.000000  1545.000000   45.500000    36.000000   
+50%       1.000000     2.000000  3835.000000   64.000000    47.000000   
+75%       2.000000     2.000000  5700.000000   68.000000    59.000000   
+max       2.000000     2.000000  9830.000000  225.000000    80.000000   
+
+       sppres105plus        sprel     sprtprsn      spsei10  spsei10educ  \
+count    1362.000000  1694.000000  4088.000000  1362.000000  1357.000000   
+mean       54.249633     2.618064     2.259540    52.822173    63.924834   
+std        25.520462     2.155213     1.010785    22.719635    26.497431   
+min         6.000000     1.000000     1.000000    12.600000    12.300000   
+25%        29.000000     1.000000     1.000000    32.000000    40.800000   
+50%        54.000000     2.000000     2.000000    53.800000    68.400000   
+75%        78.000000     4.000000     3.000000    72.700000    89.400000   
+max        97.000000    11.000000     4.000000    92.800000    99.700000   
+
+        spsei10inc    spvtrfair     spwksup     spwrkslf   spwrkslf2  \
+count  1362.000000  2304.000000  782.000000  1651.000000  210.000000   
+mean     49.951909     1.601997    1.599744     1.871593    1.614286   
+std      26.353809     0.777459    0.490264     0.334644    0.487927   
+min       3.200000     1.000000    1.000000     1.000000    1.000000   
+25%      26.800000     1.000000    1.000000     2.000000    1.000000   
+50%      52.850000     1.000000    2.000000     2.000000    2.000000   
+75%      74.000000     2.000000    2.000000     2.000000    2.000000   
+max      96.000000     4.000000    2.000000     2.000000    2.000000   
+
+       spwrkslffam     spwrksta      srcbelt     ssfchild     ssmchild  \
+count   211.000000  1725.000000  4079.000000  1276.000000  1272.000000   
+mean      1.421801     2.864348     3.617553     2.396552     2.460692   
+std       0.495021     2.277737     1.587514     1.210848     1.236106   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       1.000000     1.000000     2.000000     1.000000     1.000000   
+50%       1.000000     1.000000     4.000000     2.000000     2.000000   
+75%       2.000000     5.000000     5.000000     3.000000     3.000000   
+max       2.000000     8.000000     6.000000     5.000000     5.000000   
+
+          stayhome    stockops  stockoptyr   stockval1     stockyr  \
+count  1255.000000  138.000000   39.000000  126.000000  147.000000   
+mean      2.177689    1.702899    1.384615    6.095238    1.564626   
+std       1.101462    0.458646    0.492864    3.109800    0.497501   
+min       1.000000    1.000000    1.000000    1.000000    1.000000   
+25%       1.000000    1.000000    1.000000    4.000000    1.000000   
+50%       2.000000    2.000000    1.000000    6.000000    2.000000   
+75%       3.000000    2.000000    2.000000    8.000000    2.000000   
+max       4.000000    2.000000    2.000000   12.000000    2.000000   
+
+       stockyrval  stoptyramt       stress     stress12    strmgtsup  \
+count   52.000000   23.000000  2348.000000  1051.000000  2318.000000   
+mean     5.096154    3.956522     2.937394     1.782112     3.071613   
+std      2.844049    3.890294     0.986875     0.413007     1.167853   
+min      1.000000    1.000000     1.000000     1.000000     1.000000   
+25%      3.000000    1.000000     2.000000     2.000000     2.000000   
+50%      5.000000    3.000000     3.000000     2.000000     3.000000   
+75%      7.000000    6.000000     3.000000     2.000000     4.000000   
+max     12.000000   17.000000     5.000000     2.000000     5.000000   
+
+          strredpg  subsamprate     suicide1    suicide1g     suicide2  \
+count  2277.000000   2218.00000  1311.000000  1351.000000  1331.000000   
+mean      1.536671      0.73165     1.287567     1.285714     1.830954   
+std       0.498763      0.37780     0.452801     0.451921     0.374933   
+min       1.000000      0.20000     1.000000     1.000000     1.000000   
+25%       1.000000      0.20000     1.000000     1.000000     2.000000   
+50%       2.000000      1.00000     1.000000     1.000000     2.000000   
+75%       2.000000      1.00000     2.000000     2.000000     2.000000   
+max       2.000000      1.00000     2.000000     2.000000     2.000000   
+
+         suicide2g     suicide3    suicide3g     suicide4    suicide4g  \
+count  1364.000000  1327.000000  1362.000000  1326.000000  1344.000000   
+mean      1.864370     1.844763     1.867841     1.737557     1.738839   
+std       0.342521     0.362267     0.338787     0.440128     0.439431   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       2.000000     2.000000     2.000000     1.000000     1.000000   
+50%       2.000000     2.000000     2.000000     2.000000     2.000000   
+75%       2.000000     2.000000     2.000000     2.000000     2.000000   
+max       2.000000     2.000000     2.000000     2.000000     2.000000   
+
+          supcares     supervis      suphelp     svyenjoy       svyid1  \
+count  2292.000000  2358.000000  2302.000000  4035.000000  4010.000000   
+mean      1.764398     1.677693     1.725891     2.700372     2.732918   
+std       0.887071     0.467459     0.846302     1.233392     1.059346   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       1.000000     1.000000     1.000000     2.000000     2.000000   
+50%       2.000000     2.000000     2.000000     3.000000     3.000000   
+75%       2.000000     2.000000     2.000000     4.000000     4.000000   
+max       4.000000     2.000000     4.000000     5.000000     4.000000   
+
+            svyid2          tax     teamsafe        teens      teensex  \
+count  4002.000000  2680.000000  2333.000000  2066.000000  2713.000000   
+mean      2.827836     1.401119     1.757394     0.134560     2.084040   
+std       1.068087     0.530445     0.700614     0.430436     1.140699   
+min       1.000000     1.000000     1.000000     0.000000     1.000000   
+25%       2.000000     1.000000     1.000000     0.000000     1.000000   
+50%       3.000000     1.000000     2.000000     0.000000     2.000000   
+75%       4.000000     2.000000     2.000000     0.000000     3.000000   
+max       4.000000     3.000000     4.000000     2.000000     4.000000   
+
+        teens_7222    teens_exp  teens_exp_22     thnkself     threaten  \
+count  2066.000000  2027.000000   2027.000000  2694.000000  2729.000000   
+mean      0.138916     0.168229      0.174642     2.044543     5.221693   
+std       0.453734     0.459427      0.490873     1.165581     1.098332   
+min       0.000000     0.000000      0.000000     1.000000     1.000000   
+25%       0.000000     0.000000      0.000000     1.000000     5.000000   
+50%       0.000000     0.000000      0.000000     2.000000     6.000000   
+75%       0.000000     0.000000      0.000000     3.000000     6.000000   
+max       3.000000     2.000000      3.000000     5.000000     6.000000   
+
+          tiredhm1     tiredwk1      toofast     toofewwk  totalincentive  \
+count  1333.000000  1326.000000  1233.000000  2337.000000     4149.000000   
+mean      1.708927     2.377828     2.570154     2.194266      117.601832   
+std       1.350415     1.696991     0.793736     0.948097       51.135487   
+min       0.000000     0.000000     1.000000     1.000000        2.000000   
+25%       1.000000     0.000000     2.000000     1.000000       75.000000   
+50%       2.000000     3.000000     3.000000     2.000000      107.000000   
+75%       3.000000     4.000000     3.000000     3.000000      152.000000   
+max       4.000000     4.000000     4.000000     4.000000      200.000000   
+
+          trdunion        trust     trustman     trustnv      trustv  \
+count  2222.000000  1198.000000  2340.000000  788.000000  789.000000   
+mean      2.306031     1.831386     1.964957    1.666244    2.206591   
+std       0.832668     0.555928     0.793067    0.477209    0.711870   
+min       1.000000     1.000000     1.000000    1.000000    1.000000   
+25%       2.000000     1.000000     1.000000    1.000000    2.000000   
+50%       2.000000     2.000000     2.000000    2.000000    2.000000   
+75%       3.000000     2.000000     2.000000    2.000000    3.000000   
+max       4.000000     3.000000     4.000000    3.000000    3.000000   
+
+          trynewjb      tvhours        unemp        union       union1  \
+count  2334.000000  2731.000000  2765.000000  2756.000000  2756.000000   
+mean      2.423736     3.404248     1.657143     3.685051     3.680697   
+std       0.755016     3.400265     0.474750     0.881062     0.880318   
+min       1.000000     0.000000     1.000000     1.000000     1.000000   
+25%       2.000000     1.000000     1.000000     4.000000     4.000000   
+50%       3.000000     2.000000     2.000000     4.000000     4.000000   
+75%       3.000000     4.000000     2.000000     4.000000     4.000000   
+max       3.000000    24.000000     2.000000     4.000000     4.000000   
+
+          univgndr      unrelat  unrelat_7222     uscitzn   uscitznnv  \
+count  1230.000000  2625.000000   2625.000000  629.000000  199.000000   
+mean      2.965041     0.213714      0.243810    1.338633    1.316583   
+std       0.545338     0.501942      0.663153    0.473621    0.466316   
+min       1.000000     0.000000      0.000000    1.000000    1.000000   
+25%       3.000000     0.000000      0.000000    1.000000    1.000000   
+50%       3.000000     0.000000      0.000000    1.000000    1.000000   
+75%       3.000000     0.000000      0.000000    2.000000    2.000000   
+max       5.000000     2.000000      8.000000    2.000000    2.000000   
+
+         uscitznv  uscitzn_0822       usedup      usetech      usewww  \
+count  177.000000    253.000000  2346.000000  2275.000000  304.000000   
+mean     1.401130      1.466403     2.802643    57.485714    1.190789   
+std      0.605466      0.651507     1.158564    38.034816    0.393571   
+min      1.000000      1.000000     1.000000     0.000000    1.000000   
+25%      1.000000      1.000000     2.000000    20.000000    1.000000   
+50%      1.000000      1.000000     3.000000    70.000000    1.000000   
+75%      2.000000      2.000000     4.000000    99.000000    1.000000   
+max      4.000000      4.000000     5.000000   100.000000    2.000000   
+
+           uswary    uswarynv     uswaryv    vaxdoharm    vaxhstncy  \
+count  552.000000  387.000000  308.000000  1326.000000  1234.000000   
+mean     1.394928    1.465116    1.409091     3.770739     3.431118   
+std      0.489279    0.499427    0.492466     1.099676     1.227108   
+min      1.000000    1.000000    1.000000     1.000000     1.000000   
+25%      1.000000    1.000000    1.000000     3.000000     3.000000   
+50%      1.000000    1.000000    1.000000     4.000000     4.000000   
+75%      2.000000    2.000000    2.000000     5.000000     4.000000   
+max      2.000000    2.000000    2.000000     5.000000     5.000000   
+
+           vaxkids      vaxsafe      version     vetyears     visitors  \
+count  1233.000000  1232.000000  4149.000000  4123.000000  4149.000000   
+mean      1.658556     2.057630     2.004338     0.211011     0.013738   
+std       0.854349     0.939653     0.814514     0.684694     0.145833   
+min       1.000000     1.000000     1.000000     0.000000     0.000000   
+25%       1.000000     1.000000     1.000000     0.000000     0.000000   
+50%       1.000000     2.000000     2.000000     0.000000     0.000000   
+75%       2.000000     3.000000     3.000000     0.000000     0.000000   
+max       5.000000     5.000000     3.000000     3.000000     4.000000   
+
+            vote16       vote20      vote_ts         vpsu       vstrat  \
+count  3834.000000  3876.000000  3876.000000  4149.000000  4149.000000   
+mean      1.446531     1.314499     1.314499     1.863582  2704.451916   
+std       0.692764     0.574204     0.574204     1.182562    19.045583   
+min       1.000000     1.000000     1.000000     1.000000  2661.000000   
+25%       1.000000     1.000000     1.000000     1.000000  2691.000000   
+50%       1.000000     1.000000     1.000000     2.000000  2709.000000   
+75%       2.000000     2.000000     2.000000     2.000000  2720.000000   
+max       3.000000     3.000000     3.000000     6.000000  2727.000000   
+
+           waypaid      wealth    webdocexp     webdradv    webhltbeh  \
+count  2375.000000  989.000000  1256.000000  1284.000000  1258.000000   
+mean      1.719158    5.403438     2.644108     2.777259     2.917329   
+std       0.621734    3.191593     0.948858     0.938605     0.928383   
+min       1.000000    1.000000     1.000000     1.000000     1.000000   
+25%       1.000000    3.000000     2.000000     2.000000     2.000000   
+50%       2.000000    5.000000     2.000000     3.000000     3.000000   
+75%       2.000000    8.000000     3.000000     3.000000     3.000000   
+max       3.000000   15.000000     5.000000     5.000000     5.000000   
+
+           webmob      webrely     websympt     weekswrk       weight  \
+count  478.000000  1296.000000  1307.000000  4036.000000  2269.000000   
+mean     1.236402     2.455247     2.550880    29.582755   185.001763   
+std      0.425317     0.983024     0.947862    23.137525    49.970353   
+min      1.000000     1.000000     1.000000     0.000000    83.000000   
+25%      1.000000     2.000000     2.000000     0.000000   150.000000   
+50%      1.000000     2.000000     2.000000    40.000000   180.000000   
+75%      1.000000     3.000000     3.000000    52.000000   210.000000   
+max      2.000000     5.000000     5.000000    52.000000   999.000000   
+
+       weight_issp     whatco2      whatma2      whatpa2     whatslf2  \
+count  1309.000000  350.000000  2823.000000  3154.000000  2636.000000   
+mean    180.679144    3.342857     3.438895     3.201966     3.470410   
+std      53.933908    1.063671     1.005867     1.221224     0.988874   
+min      80.000000    1.000000     1.000000     1.000000     1.000000   
+25%     145.000000    3.000000     3.000000     3.000000     3.000000   
+50%     171.000000    4.000000     4.000000     4.000000     4.000000   
+75%     205.000000    4.000000     4.000000     4.000000     4.000000   
+max     999.000000    4.000000     4.000000     4.000000     4.000000   
+
+           whatsp2    where1  where10   where11   where12   where13  where14  \
+count  1613.000000  5.000000      1.0  5.000000  3.000000  2.000000      1.0   
+mean      3.474892  1.400000      1.0  1.600000  1.333333  1.500000      1.0   
+std       1.014239  0.547723      NaN  0.894427  0.577350  0.707107      NaN   
+min       1.000000  1.000000      1.0  1.000000  1.000000  1.000000      1.0   
+25%       3.000000  1.000000      1.0  1.000000  1.000000  1.250000      1.0   
+50%       4.000000  1.000000      1.0  1.000000  1.000000  1.500000      1.0   
+75%       4.000000  2.000000      1.0  2.000000  1.500000  1.750000      1.0   
+max       4.000000  2.000000      1.0  3.000000  2.000000  2.000000      1.0   
+
+          where2     where3     where4  where5  where6  where7  where8  \
+count  47.000000  37.000000  17.000000     3.0     1.0     0.0     1.0   
+mean    1.723404   1.972973   2.176471     2.0     1.0     NaN     1.0   
+std     0.682136   0.927556   0.882843     1.0     NaN     NaN     NaN   
+min     1.000000   1.000000   1.000000     1.0     1.0     NaN     1.0   
+25%     1.000000   1.000000   1.000000     1.5     1.0     NaN     1.0   
+50%     2.000000   2.000000   2.000000     2.0     1.0     NaN     1.0   
+75%     2.000000   3.000000   3.000000     2.5     1.0     NaN     1.0   
+max     3.000000   3.000000   3.000000     3.0     1.0     NaN     1.0   
+
+       where9     whoelse1     whoelse2     whoelse3     whoelse4  \
+count     1.0  1808.000000  1808.000000  1808.000000  1808.000000   
+mean      2.0     1.914823     1.944690     1.858960     1.953540   
+std       NaN     0.279222     0.228647     0.348159     0.210538   
+min       2.0     1.000000     1.000000     1.000000     1.000000   
+25%       2.0     2.000000     2.000000     2.000000     2.000000   
+50%       2.0     2.000000     2.000000     2.000000     2.000000   
+75%       2.0     2.000000     2.000000     2.000000     2.000000   
+max       2.0     2.000000     2.000000     2.000000     2.000000   
+
+          whoelse5  whoelse6     whywkhme      widowed     wkageism  \
+count  1808.000000    1808.0  1072.000000  2516.000000  2348.000000   
+mean      1.924779       2.0     1.857276     1.967806     1.916525   
+std       0.263821       0.0     1.117371     0.176550     0.276658   
+min       1.000000       2.0     1.000000     1.000000     1.000000   
+25%       2.000000       2.0     1.000000     2.000000     2.000000   
+50%       2.000000       2.0     1.000000     2.000000     2.000000   
+75%       2.000000       2.0     3.000000     2.000000     2.000000   
+max       2.000000       2.0     4.000000     2.000000     2.000000   
+
+          wkdecide     wkfreedm     wkharoth     wkharsex     wkpraise  \
+count  2344.000000  2343.000000  2354.000000  2355.000000  2327.000000   
+mean      1.984642     1.689714     1.904843     1.956688     1.641169   
+std       0.933890     0.804402     0.293494     0.203602     0.742800   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       1.000000     1.000000     2.000000     2.000000     1.000000   
+50%       2.000000     2.000000     2.000000     2.000000     1.000000   
+75%       3.000000     2.000000     2.000000     2.000000     2.000000   
+max       4.000000     4.000000     2.000000     2.000000     3.000000   
+
+          wkracism     wksexism     wksmooth        wksub       wksub1  \
+count  2348.000000  2344.000000  2324.000000  2679.000000  2756.000000   
+mean      1.929302     1.924061     2.145439     1.176558     1.175980   
+std       0.256375     0.264956     0.755192     0.381366     0.380872   
+min       1.000000     1.000000     1.000000     1.000000     1.000000   
+25%       2.000000     2.000000     2.000000     1.000000     1.000000   
+50%       2.000000     2.000000     2.000000     1.000000     1.000000   
+75%       2.000000     2.000000     3.000000     1.000000     1.000000   
+max       2.000000     2.000000     4.000000     2.000000     2.000000   
+
+            wksubs      wksubs1        wksup       wksup1      wksups  \
+count  2167.000000  2230.000000  2685.000000  2759.000000  877.000000   
+mean      3.145362     3.146188     1.668156     1.665458    3.675029   
+std       0.352547     0.353374     0.470963     0.471915    0.468631   
+min       3.000000     3.000000     1.000000     1.000000    3.000000   
+25%       3.000000     3.000000     1.000000     1.000000    3.000000   
+50%       3.000000     3.000000     2.000000     2.000000    4.000000   
+75%       3.000000     3.000000     2.000000     2.000000    4.000000   
+max       4.000000     4.000000     2.000000     2.000000    4.000000   
+
+          wksups1      wkvsfam     wlthblks     wlthhsps     wlthwhts  \
+count  906.000000  2382.000000  1379.000000  1368.000000  1379.000000   
+mean     3.677704     2.685978     4.754170     4.637427     3.298767   
+std      0.467614     0.927238     1.012141     1.046876     1.122700   
+min      3.000000     1.000000     1.000000     1.000000     1.000000   
+25%      3.000000     2.000000     4.000000     4.000000     3.000000   
+50%      4.000000     3.000000     5.000000     5.000000     4.000000   
+75%      4.000000     3.000000     5.000000     5.000000     4.000000   
+max      4.000000     4.000000     7.000000     7.000000     7.000000   
+
+             worda        wordb        wordc        wordd        worde  \
+count  1304.000000  2629.000000  2471.000000  2665.000000  2633.000000   
+mean      0.765337     0.906048     0.230271     0.956098     0.837068   
+std       0.423950     0.291818     0.421092     0.204916     0.369374   
+min       0.000000     0.000000     0.000000     0.000000     0.000000   
+25%       1.000000     1.000000     0.000000     1.000000     1.000000   
+50%       1.000000     1.000000     0.000000     1.000000     1.000000   
+75%       1.000000     1.000000     0.000000     1.000000     1.000000   
+max       1.000000     1.000000     1.000000     1.000000     1.000000   
+
+             wordf        wordg        wordh        wordi        wordj  \
+count  2626.000000  1248.000000  2422.000000  1306.000000  2605.000000   
+mean      0.854532     0.374199     0.419075     0.771057     0.390787   
+std       0.352640     0.484109     0.493510     0.420314     0.488020   
+min       0.000000     0.000000     0.000000     0.000000     0.000000   
+25%       1.000000     0.000000     0.000000     1.000000     0.000000   
+50%       1.000000     0.000000     0.000000     1.000000     0.000000   
+75%       1.000000     1.000000     1.000000     1.000000     1.000000   
+max       1.000000     1.000000     1.000000     1.000000     1.000000   
+
+             wordk        wordl        wordn      wordsum     wordsum7  \
+count  1310.000000  1320.000000  1321.000000  2688.000000  2688.000000   
+mean      0.720611     0.607576     0.675246     6.357887     4.456845   
+std       0.448871     0.488475     0.468460     2.227790     1.546572   
+min       0.000000     0.000000     0.000000     0.000000     0.000000   
+25%       0.000000     0.000000     0.000000     5.000000     4.000000   
+50%       1.000000     1.000000     1.000000     6.000000     5.000000   
+75%       1.000000     1.000000     1.000000     8.000000     6.000000   
+max       1.000000     1.000000     1.000000    10.000000     7.000000   
+
+        wordsumnew   wordsumold     workblks     workdiff     workfast  \
+count  1367.000000  1321.000000  2704.000000  2366.000000  2357.000000   
+mean      6.455011     6.257381     3.768121     1.789096     2.156979   
+std       2.338328     2.103477     1.290796     0.702685     0.795765   
+min       0.000000     0.000000     1.000000     1.000000     1.000000   
+25%       5.000000     5.000000     3.000000     1.000000     2.000000   
+50%       7.000000     6.000000     4.000000     2.000000     2.000000   
+75%       8.000000     8.000000     4.000000     2.000000     3.000000   
+max      10.000000    10.000000     7.000000     4.000000     4.000000   
+
+          workfor1     workhard     workhsps     worksick     workwhts  \
+count  1073.000000  2694.000000  2690.000000  2294.000000  2706.000000   
+mean      1.504194     2.231626     2.935316     4.722755     3.716186   
+std       0.759413     0.946286     1.348352    14.876870     1.206273   
+min       1.000000     1.000000     1.000000     0.000000     1.000000   
+25%       1.000000     1.000000     2.000000     0.000000     3.000000   
+50%       1.000000     2.000000     3.000000     0.000000     4.000000   
+75%       2.000000     3.000000     4.000000     2.000000     4.000000   
+max       3.000000     5.000000     7.000000    90.000000     7.000000   
+
+             worry     wrkbaby     wrkgovt1     wrkgovt2      wrkhome  \
+count  2333.000000  864.000000  3975.000000  3946.000000  2374.000000   
+mean      1.657094    2.021991     1.805283     1.372022     2.640270   
+std       0.891564    0.766160     0.396032     0.483406     2.048793   
+min       1.000000    1.000000     1.000000     1.000000     1.000000   
+25%       1.000000    1.000000     2.000000     1.000000     1.000000   
+50%       1.000000    2.000000     2.000000     1.000000     1.000000   
+75%       2.000000    3.000000     2.000000     2.000000     5.000000   
+max       4.000000    3.000000     2.000000     2.000000     6.000000   
+
+        wrkmeangfl      wrksch     wrksched       wrkslf   wrkslffam  \
+count  2352.000000  917.000000  2382.000000  3978.000000  455.000000   
+mean      1.810374    1.438386     1.761125     1.884615    1.571429   
+std       0.718423    0.592685     1.494647     0.319526    0.495416   
+min       1.000000    1.000000     1.000000     1.000000    1.000000   
+25%       1.000000    1.000000     1.000000     2.000000    1.000000   
+50%       2.000000    1.000000     1.000000     2.000000    2.000000   
+75%       2.000000    2.000000     1.000000     2.000000    2.000000   
+max       4.000000    3.000000     6.000000     2.000000    2.000000   
+
+           wrkstat      wrktime      wrktype     wrkwayup  wrkwayup_next  \
+count  4139.000000  2343.000000  2360.000000  2719.000000    1234.000000   
+mean      3.054603     1.807939     4.360169     2.799559       2.922204   
+std       2.322878     0.813416     1.386952     1.431764       1.454509   
+min       1.000000     1.000000     1.000000     1.000000       1.000000   
+25%       1.000000     1.000000     5.000000     2.000000       2.000000   
+50%       2.000000     2.000000     5.000000     3.000000       3.000000   
+75%       5.000000     2.000000     5.000000     4.000000       4.000000   
+max       8.000000     4.000000     5.000000     5.000000       5.000000   
+
+          wtssnrps  wtssnrps_nea  wtssnrps_next       wtssps  wtssps_nea  \
+count  3544.000000    843.000000    1235.000000  3544.000000  843.000000   
+mean      1.000000      1.000000       1.000000     1.000000    1.000000   
+std       1.243253      1.251813       1.180530     1.261260    1.252159   
+min       0.076104      0.049729       0.090816     0.073972    0.112206   
+25%       0.336104      0.307250       0.339571     0.337657    0.364248   
+50%       0.584300      0.570879       0.602136     0.578963    0.628251   
+75%       1.091221      1.169048       1.207341     1.058485    1.188035   
+max      17.003078     16.167341      13.168541    14.272462   17.815383   
+
+       wtssps_next        wwwhr       wwwmin      xmarsex       xmovie  \
+count  1235.000000  2616.000000  2606.000000  2699.000000  1370.000000   
+mean      1.000000    14.898700     1.872985     1.565395     1.648175   
+std       1.266347    18.913814     7.254490     0.849979     0.477714   
+min       0.106381     0.000000     0.000000     1.000000     1.000000   
+25%       0.358660     3.000000     0.000000     1.000000     1.000000   
+50%       0.598251     8.000000     0.000000     1.000000     2.000000   
+75%       1.089063    20.000000     0.000000     2.000000     2.000000   
+max      14.499165   168.000000    55.000000     4.000000     2.000000   
+
+           xmoviey     xnorcsiz     yearsjob    yearsusa   yearval1  \
+count  1311.000000  4136.000000  2353.000000  476.000000  85.000000   
+mean      2.867277     3.595745     7.027306   23.632353   4.517647   
+std       2.529355     2.293257     8.607771   16.010435   2.809896   
+min       1.000000     1.000000     0.250000    1.000000   1.000000   
+25%       1.000000     2.000000     0.750000   10.000000   2.000000   
+50%       1.000000     3.000000     4.000000   21.000000   4.000000   
+75%       4.000000     5.000000    10.000000   34.000000   6.000000   
+max      10.000000    10.000000    58.000000   87.000000  12.000000   
+
+           yousup     yrarmus      yrarpo    yrartxbt     yrclass     yrcreat  \
+count  770.000000  832.000000  838.000000  836.000000  837.000000  837.000000   
+mean    11.884416    1.329327    1.737470    1.668660    1.726404    1.688172   
+std     37.480723    0.470252    0.440272    0.470977    0.446071    0.463517   
+min      0.000000    1.000000    1.000000    1.000000    1.000000    1.000000   
+25%      2.000000    1.000000    1.000000    1.000000    1.000000    1.000000   
+50%      4.000000    1.000000    2.000000    2.000000    2.000000    2.000000   
+75%     10.000000    2.000000    2.000000    2.000000    2.000000    2.000000   
+max    600.000000    2.000000    2.000000    2.000000    2.000000    2.000000   
+
+            yrfnce     yrlvmus     yrmovie       yrpod       yrrdg  \
+count  1294.000000  839.000000  840.000000  838.000000  840.000000   
+mean      3.092736    1.486293    1.497619    1.715990    1.342857   
+std       1.018344    0.500110    0.500292    0.451211    0.474947   
+min       1.000000    1.000000    1.000000    1.000000    1.000000   
+25%       2.000000    1.000000    1.000000    1.000000    1.000000   
+50%       3.000000    1.000000    1.000000    2.000000    1.000000   
+75%       4.000000    2.000000    2.000000    2.000000    2.000000   
+max       5.000000    2.000000    2.000000    2.000000    2.000000   
+
+          yrstmus      yrstpo      yrtour       zodiac  baselinestatus  \
+count  834.000000  837.000000  840.000000  3823.000000     4149.000000   
+mean     1.582734    1.866189    1.771429     6.535443        0.854182   
+std      0.493404    0.340653    0.420163     3.473189        0.352966   
+min      1.000000    1.000000    1.000000     1.000000        0.000000   
+25%      1.000000    2.000000    2.000000     4.000000        1.000000   
+50%      2.000000    2.000000    2.000000     7.000000        1.000000   
+75%      2.000000    2.000000    2.000000    10.000000        1.000000   
+max      2.000000    2.000000    2.000000    12.000000        1.000000   
+
+        amerstatus    wtssps_as  wtssnrps_as  
+count  4149.000000  4149.000000  4149.000000  
+mean      0.145818     1.000000     1.000000  
+std       0.352966     1.325434     1.270724  
+min       0.000000     0.002557     0.004956  
+25%       0.000000     0.328566     0.341023  
+50%       0.000000     0.590159     0.600319  
+75%       0.000000     1.034463     1.093086  
+max       1.000000    17.218525    19.909269  
+Execution time: 1006.520752 seconds
