@@ -4,3 +4,6 @@
 
 # Raw NSCG public-use data files (large; shared via Google Drive, see docs/nscg_data_access.md)
 data/pcg23Public/
+
+# NSCG + O*NET merged output (~25MB; rebuild with notebooks/NSCG/merge_nscg_onet.py)
+data/nscg2023_onet_merged.csv
