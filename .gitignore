@@ -7,3 +7,6 @@ data/pcg23Public/
 
 # NSCG + O*NET merged output (~25MB; rebuild with notebooks/NSCG/merge_nscg_onet.py)
 data/nscg2023_onet_merged.csv
+
+# Cleaned NSCG + O*NET data (rebuild by running notebooks/NSCG/nscg_cleaning_eda.ipynb)
+data/nscg2023_onet_clean.csv
