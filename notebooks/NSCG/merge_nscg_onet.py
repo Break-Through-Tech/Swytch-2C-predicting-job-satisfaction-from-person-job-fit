@@ -27,6 +27,8 @@ NSCG_COLS = [
     "NEDTP", "INDCODE", "JOBINS", "JOBPENS", "JOBPROFT", "JOBVAC",
     # degree field
     "NDGMEMG",
+    # career timing / degree: year current job started, year and type of highest degree
+    "STRTYR", "DGRYR", "DGRDG",
     # baseline: demographics
     "AGE", "SEX_2023", "RACETHM", "HISPANIC", "CTZN", "MARSTA",
     # baseline: work
