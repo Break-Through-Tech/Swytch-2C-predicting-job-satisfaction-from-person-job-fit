@@ -1,0 +1,3 @@
+,pred satisfied(0),pred dissatisfied(1)
+true satisfied(0),0.658,0.342
+true dissatisfied(1),0.501,0.499
