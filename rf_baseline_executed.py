@@ -1,8 +1,6 @@
 """
 Random forest baseline on feature sets A0 and A1 (issue #23): job dissatisfaction (satjob in {3, 4}).
 
-Plain-Python version of rf_baseline.ipynb, same logic and seeds.
-
   * Pipeline: in-fold imputation -> one-hot (nominal) / unscaled numeric -> RandomForest
   * class_weight="balanced_subsample", min_samples_leaf >= 10
   * Nested CV: outer RepeatedStratifiedKFold(5 x 5, seed 42), inner StratifiedKFold(3) tuned on ROC-AUC
