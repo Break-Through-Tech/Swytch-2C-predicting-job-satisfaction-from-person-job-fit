@@ -1,3 +1,12 @@
 .venv/
 .DS_Store
 .ipynb_checkpoints/
+# FEVS source data (download separately)
+data/fevs/
+
+# Local exploratory script
+inspect_fevs.py
+
+# Python-generated files
+__pycache__/
+*.pyc
