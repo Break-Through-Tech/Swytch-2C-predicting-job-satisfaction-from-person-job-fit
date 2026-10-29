@@ -128,7 +128,7 @@ The following resources will help your team understand the problem space and pot
 **Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 I will give unsolicited suggested guidance during these meetings. I am open to any and all questions.
 
- **Other ways to reach out to me with questions:** 
+**Other ways to reach out to me with questions:** 
 * jimt@swytch.careers,  jenna.hunte@breakthroughtech.org
 * Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.
 
