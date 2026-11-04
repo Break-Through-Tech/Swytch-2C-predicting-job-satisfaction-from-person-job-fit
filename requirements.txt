@@ -1,7 +1,11 @@
 pandas>=2.0
+numpy>=1.24
 pyreadstat>=1.2      # reads the GSS .sav file
 openpyxl>=3.1        # pandas engine for .xlsx (O*NET files, 2010-2019 crosswalk)
 xlrd>=2.0            # pandas engine for .xls (census_2010_occ_soc.xls)
 matplotlib>=3.7      # EDA plots
 seaborn>=0.13        # EDA heatmaps
+scikit-learn>=1.3    # models (random forest, logistic regression, decision trees)
+scipy>=1.10          # stats tests in notebooks
+pdfplumber>=0.10     # reads the NSCG PDF codebook (nscg_initial_work.ipynb)
 ipykernel            # run the notebooks in VS Code / Jupyter

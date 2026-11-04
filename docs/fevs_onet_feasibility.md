@@ -113,11 +113,11 @@ was created.
 Run the inspection script from the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts\inspect_fevs_onet_feasibility.py
+.\.venv\Scripts\python.exe src\fevs\inspect_fevs_onet_feasibility.py
 ```
 
 The script requires `pandas`, `openpyxl`, the 2024 FEVS CSV, and the
-official codebook in `data/fevs/2024/`.
+official codebook in `data/raw/fevs/2024/`.
 
 ## Conclusion
 

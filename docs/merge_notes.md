@@ -6,12 +6,12 @@ Write-up for the GSS + O*NET merge (issue #12): what got joined and what didn't.
 
 | | |
 |---|---|
-| **Base** | GSS 2024 (`data/GSS2024.sav`), all 3,986 respondents, 31 selected columns |
+| **Base** | GSS 2024 (`data/raw/gss/GSS2024.sav`), all 3,986 respondents, 31 selected columns |
 | **Joined** | O*NET Work Values (6) and Job Zone, averaged per Census 2010 code (`gss_occ10_work_values.csv`) |
 | **Key** | GSS `occ10` → crosswalk `census_code`, both as 4-digit text |
 | **Join type** | Left join from GSS, many-to-one (checked with `validate="many_to_one"`) |
-| **Output** | `gss2024_onet_merged.csv`: 3,986 rows × 48 columns |
-| **Scripts** | `notebooks/build_gss_onet_crosswalk.py` (crosswalk), then `notebooks/merge_gss_onet.py` (merge) |
+| **Output** | `data/processed/gss2024_onet_merged.csv`: 3,986 rows × 48 columns |
+| **Scripts** | `src/gss/build_gss_onet_crosswalk.py` (crosswalk), then `src/gss/merge_gss_onet.py` (merge) |
 
 **GSS columns kept:**
 
@@ -56,7 +56,7 @@ Job Zone is filled for 98.3% of usable rows (weighted). **Dropped records: none.
 | 9830 | Military, rank not specified | 6 | Not in the Census list; O*NET doesn't cover the military |
 | 16 other codes | e.g. 3245, 8220, 0060, 1240, 5420, 9150 | 36 | `no data`, 1–4 rows each |
 
-Dropping these rows in analysis would under-represent lower-prep service and transport jobs, which biases the O*NET features. Run `notebooks/merge_gss_onet.py` for the full list.
+Dropping these rows in analysis would under-represent lower-prep service and transport jobs, which biases the O*NET features. Run `src/gss/merge_gss_onet.py` for the full list.
 
 ## Flags for EDA
 - **`match`**: the crosswalk match type, plus `not in Census list` and `no occ10` for respondents the crosswalk doesn't cover.
@@ -66,7 +66,7 @@ Dropping these rows in analysis would under-represent lower-prep service and tra
 ## Limitations
 1. **No person-side work values in GSS 2024.** The standard GSS job-values questions (`jobinc`, `jobsec`, `jobpromo`, `jobmeans`, the ISSP work-orientation items) aren't in the 2024 file. `impjob` (importance of a fulfilling job) is the only one: 1,062 respondents, 385 with `satjob` and `occ10`. The O*NET Work Values describe what the **occupation** offers, so everyone in the same occupation gets identical values. These are occupation characteristics, not person-job fit. Person-level fit can be measured in the NSCG track (#7), which asks respondents how important each job factor is (`FAC*`). Raise at the next check-in.
 2. **Occupation values are simple averages.** When a Census code maps to several O*NET occupations, each counts equally, regardless of how many people work in it.
-3. **Job Zone has no Zone 1.** The O*NET release in `data/Job Zones.xlsx` has only Zones 2–5, so entry-level jobs sit in Zone 2. Codes that map to several occupations get averaged zones (70 of 538 codes aren't whole numbers).
+3. **Job Zone has no Zone 1.** The O*NET release in `data/raw/onet/Job Zones.xlsx` has only Zones 2–5, so entry-level jobs sit in Zone 2. Codes that map to several occupations get averaged zones (70 of 538 codes aren't whole numbers).
 4. **Income is missing for ~22% of usable rows** (`realrinc`, `rincom16`), the largest gap among the baseline factors. This is for the cleaning step.
 5. **Weights are missing for 677 of 3,986 respondents** (`wtssps`). Check why before modeling.
 
@@ -80,4 +80,4 @@ Across the 538 Census codes, Achievement (r = 0.83) and Recognition (r = 0.84) r
 - **Job Zone:** included, as a control and for the sanity check.
 
 ## Repo cleanup ✅
-Deleted the duplicate `data/2024/GSS2024.sav` (identical to `data/GSS2024.sav`), untracked `.DS_Store` and `.ipynb_checkpoints/`, and added them to `.gitignore`.
+Deleted the duplicate `data/2024/GSS2024.sav` (identical to `data/raw/gss/GSS2024.sav`), untracked `.DS_Store` and `.ipynb_checkpoints/`, and added them to `.gitignore`.
