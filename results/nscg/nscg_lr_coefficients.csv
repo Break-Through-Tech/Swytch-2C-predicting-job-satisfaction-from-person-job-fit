@@ -1,0 +1,357 @@
+set,feature,label,mean_coef,sd_coef,odds_ratio
+A0,num__AGE,Age (years) (num__AGE),0.1379449171956739,0.0053606611508297,1.147912318303085
+A0,num__HRSWK,Hours worked per week (num__HRSWK),-0.1353799825617419,0.0049846598424225,0.8733839779461872
+A0,num__WKSWK,Weeks worked per year (num__WKSWK),-0.0277521493220149,0.0038719769759378,0.9726294037865796
+A0,num__tenure_years,Years in current job (num__tenure_years),0.0200590946550109,0.004443072987605,1.020261630254384
+A0,num__log_salary,Salary (log) (num__log_salary),0.2519451041379871,0.0057981362886418,1.2865254104248904
+A0,num__TELEFR,Telework days per week (0-4) (num__TELEFR),-0.0113565508766841,0.0054010145382905,0.9887076913272952
+A0,num__EMSIZE,Employer size (1 = small ... 8 = large) (num__EMSIZE),-0.1017955528891047,0.0050157561079844,0.9032141923257498
+A0,num__OCEDRLP,Job less related to degree (1 = closely ... 3 = not related) (num__OCEDRLP),-0.200271989135878,0.0057770209935662,0.8185080974892586
+A0,num__JOBINS,Offers health insurance (num__JOBINS),-0.0534835799286613,0.005466832655383,0.947921505814764
+A0,num__JOBPENS,Offers pension/retirement plan (num__JOBPENS),0.0656536003667936,0.0034006001605826,1.0678567479052934
+A0,num__JOBPROFT,Offers profit sharing (num__JOBPROFT),0.1396279970281637,0.0028117684510644,1.149845973166775
+A0,num__JOBVAC,Offers paid vacation/sick days (num__JOBVAC),-0.0161037253062651,0.0039321705439503,0.9840252464415083
+A0,num__MGRNAT,Job needs expertise: eng/CS/math/natural sci (num__MGRNAT),0.0108198216114247,0.0052781912077403,1.010878567563677
+A0,num__MGROTH,Job needs expertise: other fields (num__MGROTH),0.0115634338094721,0.0042318051199159,1.0116305487538038
+A0,num__MGRSOC,Job needs expertise: social sciences (num__MGRSOC),-0.0040168768741648,0.0048742676183076,0.9959911799843332
+A0,num__salary_zero,Reported salary of 0 (num__salary_zero),-0.0153074096883708,0.0019107443552771,0.9848091531908216
+A0,num__salary_low,"Implausibly low salary (<$1,000) (num__salary_low)",0.0450392973920592,0.0042773469763576,1.0460689668833258
+A0,num__salary_topcoded,Salary top-coded (num__salary_topcoded),0.0195684050790262,0.0038995369421617,1.0197611213149431
+A0,num__hours_topcoded,Hours top-coded (96) (num__hours_topcoded),0.0252356526469596,0.0033992203488429,1.0255567672177714
+A0,num__missingindicator_log_salary,Missing flag: Salary (log) (num__missingindicator_log_salary),-0.0153074096883708,0.0019107443552771,0.9848091531908216
+A0,cat__SEX_2023_Female,Sex: Female (cat__SEX_2023_Female),-0.0164347640536498,0.0041287955006506,0.9836995498685986
+A0,cat__SEX_2023_Male,Sex: Male (cat__SEX_2023_Male),0.0027440373415627,0.0051446401721697,1.0027478056580408
+A0,cat__RACETHM_American Indian/Alaska Native,Race/ethnicity: American Indian/Alaska Native (cat__RACETHM_American Indian/Alaska Native),0.1041349340973843,0.0387215765685311,1.1097501879532428
+A0,cat__RACETHM_Asian,Race/ethnicity: Asian (cat__RACETHM_Asian),-0.2488862382621127,0.012742191600238,0.7796686648020439
+A0,cat__RACETHM_Black,Race/ethnicity: Black (cat__RACETHM_Black),-0.098692780679372,0.0141429648986432,0.9060210124310278
+A0,"cat__RACETHM_Hispanic, any race","Race/ethnicity: Hispanic, any race (cat__RACETHM_Hispanic, any race)",0.1288816754847019,0.0131825693590618,1.1375555154971402
+A0,cat__RACETHM_Multiple race,Race/ethnicity: Multiple race (cat__RACETHM_Multiple race),-0.018162516478059,0.0194044240248425,0.9820014279759574
+A0,cat__RACETHM_Native Hawaiian/Pacific Islander,Race/ethnicity: Native Hawaiian/Pacific Islander (cat__RACETHM_Native Hawaiian/Pacific Islander),0.0219573834961232,0.018448243558627,1.0222002209425036
+A0,cat__RACETHM_White,Race/ethnicity: White (cat__RACETHM_White),0.0970768156292412,0.0102637893620155,1.1019450169698708
+A0,cat__CTZN_Permanent resident,Citizenship: Permanent resident (cat__CTZN_Permanent resident),-0.1991647906410261,0.0126421256730094,0.8194148503078693
+A0,cat__CTZN_Temporary resident,Citizenship: Temporary resident (cat__CTZN_Temporary resident),0.0609221285817317,0.0155132834280101,1.0628161479638751
+A0,"cat__CTZN_U.S. citizen, native","Citizenship: U.S. citizen, native (cat__CTZN_U.S. citizen, native)",0.1954290362784394,0.0115715674572226,1.215832510860959
+A0,"cat__CTZN_U.S. citizen, naturalized","Citizenship: U.S. citizen, naturalized (cat__CTZN_U.S. citizen, naturalized)",-0.0708771009312305,0.0095755273798347,0.9315763749615016
+A0,cat__MARSTA_Divorced,Marital status: Divorced (cat__MARSTA_Divorced),-0.0202557917989096,0.0138121846566512,0.9799479785890146
+A0,cat__MARSTA_Marriage-like relationship,Marital status: Marriage-like relationship (cat__MARSTA_Marriage-like relationship),-0.0752225948699664,0.0150433536883351,0.927536998370284
+A0,cat__MARSTA_Married,Marital status: Married (cat__MARSTA_Married),0.1119970089958219,0.0109947388576942,1.118509515173409
+A0,cat__MARSTA_Never married,Marital status: Never married (cat__MARSTA_Never married),-0.1575136542932006,0.0128296385723335,0.8542651491420272
+A0,cat__MARSTA_Separated,Marital status: Separated (cat__MARSTA_Separated),-0.0024371608550301,0.027409147133105,0.9975658066102668
+A0,cat__MARSTA_Widowed,Marital status: Widowed (cat__MARSTA_Widowed),0.1297414661091911,0.0416477968076917,1.1385339956479528
+A0,cat__DGRDG_Bachelor's,Highest degree: Bachelor's (cat__DGRDG_Bachelor's),0.0321031179533665,0.0077871068236393,1.03262398188681
+A0,cat__DGRDG_Doctorate,Highest degree: Doctorate (cat__DGRDG_Doctorate),-0.052641135242349,0.0115878152222447,0.9487204137209896
+A0,cat__DGRDG_Master's,Highest degree: Master's (cat__DGRDG_Master's),-0.0070012682673751,0.0068596766585137,0.99302318351353
+A0,cat__DGRDG_Professional,Highest degree: Professional (cat__DGRDG_Professional),0.0138485588442663,0.0111266573263984,1.0139448943241378
+A0,cat__NDGMEMG_Computer and mathematical sciences,Degree field: Computer and mathematical sciences (cat__NDGMEMG_Computer and mathematical sciences),-0.1110378650477698,0.0183929584832832,0.8949048626721081
+A0,cat__NDGMEMG_Engineering,Degree field: Engineering (cat__NDGMEMG_Engineering),0.027455741301667,0.0128248799734648,1.0278361234116369
+A0,cat__NDGMEMG_Life sciences,Degree field: Life sciences (cat__NDGMEMG_Life sciences),0.0432012226405427,0.0136604355894741,1.0441479799266051
+A0,cat__NDGMEMG_Non-S&E fields,Degree field: Non-S&E fields (cat__NDGMEMG_Non-S&E fields),-0.0164728962092092,0.0093736315503469,0.98366203999951
+A0,cat__NDGMEMG_Physical sciences,Degree field: Physical sciences (cat__NDGMEMG_Physical sciences),0.0706220913868723,0.0181585502320698,1.0731755869282618
+A0,cat__NDGMEMG_S&E-related fields,Degree field: S&E-related fields (cat__NDGMEMG_S&E-related fields),-0.0036004042072352,0.0080827489458633,0.9964060694763694
+A0,cat__NDGMEMG_Social sciences,Degree field: Social sciences (cat__NDGMEMG_Social sciences),-0.0238586165769593,0.0133246251463516,0.976423750131501
+A0,cat__NEDTP_Local government,Employer type: Local government (cat__NEDTP_Local government),-0.1706051340233575,0.0165213113553421,0.8431544407500207
+A0,cat__NEDTP_Other employer type,Employer type: Other employer type (cat__NEDTP_Other employer type),0.0194784631534479,0.0215761620147397,1.0196694061606428
+A0,cat__NEDTP_Private for-profit,Employer type: Private for-profit (cat__NEDTP_Private for-profit),-0.3073364932505331,0.0145679664951928,0.7354031010886419
+A0,cat__NEDTP_Private not-for-profit,Employer type: Private not-for-profit (cat__NEDTP_Private not-for-profit),-0.034278866797549,0.0189690044709798,0.9663019975174466
+A0,"cat__NEDTP_Self-employed, incorporated","Employer type: Self-employed, incorporated (cat__NEDTP_Self-employed, incorporated)",-0.0425823666269481,0.0183732714154718,0.9583115293818992
+A0,"cat__NEDTP_Self-employed, not incorporated","Employer type: Self-employed, not incorporated (cat__NEDTP_Self-employed, not incorporated)",0.2059805184414199,0.0234292983192319,1.2287292662009617
+A0,cat__NEDTP_State government,Employer type: State government (cat__NEDTP_State government),-0.0817662124539975,0.016342579374573,0.9214873657855396
+A0,cat__NEDTP_U.S. federal government (civilian),Employer type: U.S. federal government (civilian) (cat__NEDTP_U.S. federal government (civilian)),0.163316810368215,0.0168220398273952,1.1774096461906538
+A0,cat__NEDTP_U.S. military,Employer type: U.S. military (cat__NEDTP_U.S. military),0.2341025544772129,0.0620111088697917,1.2637740912534268
+A0,"cat__TELEC_Allowed to telework, and did","Allowed and teleworked (cat__TELEC_Allowed to telework, and did)",0.0746437461686194,0.0078179704265179,1.077500218918772
+A0,"cat__TELEC_Allowed to telework, and didn't","Allowed but not teleworking (cat__TELEC_Allowed to telework, and didn't)",0.3320464007293108,0.0193325263927802,1.393817521161584
+A0,cat__TELEC_Not allowed or required to telework,Telework not allowed (cat__TELEC_Not allowed or required to telework),-0.4226016291528059,0.0130189508975073,0.6553396493290317
+A0,cat__TELEC_Required to telework,Required to telework (cat__TELEC_Required to telework),0.0085352041340333,0.0142561976697253,1.008571732841535
+A0,cat__TELEC_Telework didn't make sense for job,Telework doesn't suit the job (cat__TELEC_Telework didn't make sense for job),-0.0063144485912449,0.0105511832270167,0.9937054456435284
+A0,cat__occ_group_11,Occupation: Computer & information science [11] (cat__occ_group_11),0.1202036402334283,0.0132634825786356,1.1277264786812855
+A0,cat__occ_group_12,"Occupation: Math, statistics & data science [12] (cat__occ_group_12)",0.0838432386474588,0.0289508443095527,1.087458408995434
+A0,cat__occ_group_18,Occupation: Postsecondary teachers: math/CS [18] (cat__occ_group_18),0.0310438899526796,0.040691568670074,1.0315307767299822
+A0,cat__occ_group_21,Occupation: Agricultural & food scientists [21] (cat__occ_group_21),-0.0032687356870454,0.0213715902944626,0.9967366008133304
+A0,cat__occ_group_22,Occupation: Life scientists [22] (cat__occ_group_22),-0.0144162586143451,0.020037751147435,0.9856871580847943
+A0,cat__occ_group_23,Occupation: Conservation scientists & foresters [23] (cat__occ_group_23),-0.1181199502266115,0.0473964277752241,0.8885894597147665
+A0,cat__occ_group_28,Occupation: Postsecondary teachers: life sciences [28] (cat__occ_group_28),0.0073065646150036,0.0234278284289343,1.0073333226884045
+A0,cat__occ_group_31,Occupation: Chemists [31] (cat__occ_group_31),-0.1082878435125083,0.038412700166193,0.8973692573325543
+A0,cat__occ_group_32,Occupation: Environmental & earth scientists [32] (cat__occ_group_32),-0.0332505811624198,0.0335931816714777,0.9672961430258646
+A0,cat__occ_group_33,Occupation: Physicists [33] (cat__occ_group_33),0.0679221942634286,0.0285639711694622,1.0702820311573165
+A0,cat__occ_group_34,Occupation: Other physical scientists [34] (cat__occ_group_34),-0.0268994424195596,0.025358650704631,0.973459125297074
+A0,cat__occ_group_38,Occupation: Postsecondary teachers: physical sciences [38] (cat__occ_group_38),-0.1267779834652853,0.0480472513906526,0.8809292317430322
+A0,cat__occ_group_41,Occupation: Economists [41] (cat__occ_group_41),0.0469515411486336,0.033758398618295,1.0480712195216155
+A0,cat__occ_group_42,Occupation: Political scientists [42] (cat__occ_group_42),0.0342585307428069,0.0264961381454751,1.0348521132328297
+A0,cat__occ_group_43,Occupation: Psychologists [43] (cat__occ_group_43),0.0309117214753367,0.0366340415790776,1.0313944498871437
+A0,cat__occ_group_44,Occupation: Anthropologists & sociologists [44] (cat__occ_group_44),-0.0368966884685288,0.0284490224561857,0.9637756993494048
+A0,cat__occ_group_45,Occupation: Other social scientists [45] (cat__occ_group_45),0.0023046027995195,0.0290820386383558,1.0023072604377594
+A0,cat__occ_group_48,Occupation: Postsecondary teachers: social sciences [48] (cat__occ_group_48),-0.0881609503608157,0.0379922388944445,0.915613496540561
+A0,cat__occ_group_51,Occupation: Aerospace engineers [51] (cat__occ_group_51),0.0656442497784093,0.0273960360160641,1.0678467628630737
+A0,cat__occ_group_52,Occupation: Chemical engineers [52] (cat__occ_group_52),-0.0884967212155386,0.0357395553564844,0.9153061118225344
+A0,cat__occ_group_53,Occupation: Civil engineers [53] (cat__occ_group_53),0.0089389500471555,0.020618613212178,1.0089790217718482
+A0,cat__occ_group_54,Occupation: Electrical & computer engineers [54] (cat__occ_group_54),0.0165492307909631,0.0205075759217111,1.0166869278556387
+A0,cat__occ_group_55,Occupation: Industrial engineers [55] (cat__occ_group_55),-0.0422207012793082,0.0253521258841958,0.9586581801363246
+A0,cat__occ_group_56,Occupation: Mechanical engineers [56] (cat__occ_group_56),-0.1606409096327047,0.0309807358484251,0.8515978167815185
+A0,cat__occ_group_57,Occupation: Other engineers [57] (cat__occ_group_57),0.0135933966904912,0.0220089287240485,1.013686206966108
+A0,cat__occ_group_58,Occupation: Postsecondary teachers: engineering [58] (cat__occ_group_58),-0.0239924525020096,0.026854454927469,0.9762930783001488
+A0,cat__occ_group_61,"Occupation: Health occupations (nurses, pharmacists, therapists...) [61] (cat__occ_group_61)",0.0463173984518738,0.0181231991128143,1.0474068035016206
+A0,cat__occ_group_62,"Occupation: Managers (engineering, health, IT, science) [62] (cat__occ_group_62)",0.0602317225629509,0.0236520231912852,1.0620826265414027
+A0,cat__occ_group_63,Occupation: Secondary teachers: STEM & social sci [63] (cat__occ_group_63),-0.0879399444759063,0.0207854614387784,0.9158158748741766
+A0,cat__occ_group_64,Occupation: Technicians & programmers [64] (cat__occ_group_64),-0.0993833623625089,0.0152956358364011,0.90539554690768
+A0,cat__occ_group_65,Occupation: Architects & actuaries [65] (cat__occ_group_65),0.0237656373670152,0.0257100076771936,1.0240502906425877
+A0,cat__occ_group_71,Occupation: Executives & other managers [71] (cat__occ_group_71),0.2366601783077462,0.0185044525002166,1.267010486962799
+A0,cat__occ_group_72,"Occupation: Management-related (finance, HR, purchasing...) [72] (cat__occ_group_72)",0.048567400402363,0.0141808620151029,1.0497661240950835
+A0,cat__occ_group_73,Occupation: K-12 teachers (non-STEM focus) [73] (cat__occ_group_73),-0.0387363045791333,0.0281038481437976,0.9620043518451232
+A0,cat__occ_group_74,Occupation: Postsecondary teachers: other fields [74] (cat__occ_group_74),-0.0122022247158136,0.0263778712197149,0.987871920542747
+A0,cat__occ_group_75,Occupation: Counselors & social service [75] (cat__occ_group_75),0.0685029324419551,0.0228979073979305,1.0709037653095064
+A0,cat__occ_group_76,Occupation: Sales [76] (cat__occ_group_76),0.006537318959199,0.0207047362651409,1.0065587338687176
+A0,cat__occ_group_77,"Occupation: Writers, artists & media [77] (cat__occ_group_77)",0.0418965985076596,0.0315011041172958,1.04278664748036
+A0,cat__occ_group_78,"Occupation: Admin support, lawyers & service [78] (cat__occ_group_78)",0.0340493897818757,0.016535434627184,1.0346357058980542
+A1,num__AGE,Age (years) (num__AGE),0.1378883464416243,0.0054557864376083,1.1478473818744244
+A1,num__HRSWK,Hours worked per week (num__HRSWK),-0.1363880653137279,0.0049101352248948,0.8725039782529386
+A1,num__WKSWK,Weeks worked per year (num__WKSWK),-0.0266845318296969,0.0036191422947981,0.9736683544538745
+A1,num__tenure_years,Years in current job (num__tenure_years),0.0194706072385127,0.0042986221110604,1.0196613957559906
+A1,num__log_salary,Salary (log) (num__log_salary),0.2504203335668089,0.0059101582272726,1.2845652491179085
+A1,num__TELEFR,Telework days per week (0-4) (num__TELEFR),-0.0108270860211953,0.0065364761193814,0.989231315910379
+A1,num__EMSIZE,Employer size (1 = small ... 8 = large) (num__EMSIZE),-0.1007003088446718,0.0050787310414392,0.9042039742181616
+A1,num__OCEDRLP,Job less related to degree (1 = closely ... 3 = not related) (num__OCEDRLP),-0.1993475503196509,0.0062113965412349,0.8192651079970118
+A1,num__JOBINS,Offers health insurance (num__JOBINS),-0.0524324082503691,0.0055306200918104,0.9489184579470442
+A1,num__JOBPENS,Offers pension/retirement plan (num__JOBPENS),0.0661520891846805,0.0033438594068861,1.0683891952517277
+A1,num__JOBPROFT,Offers profit sharing (num__JOBPROFT),0.1396431794260762,0.0031216447919065,1.149863430718401
+A1,num__JOBVAC,Offers paid vacation/sick days (num__JOBVAC),-0.0142722308082155,0.0039794891087365,0.985829134667746
+A1,num__MGRNAT,Job needs expertise: eng/CS/math/natural sci (num__MGRNAT),0.010550388385922,0.0057298639685924,1.010606239979324
+A1,num__MGROTH,Job needs expertise: other fields (num__MGROTH),0.0093204856186964,0.0045481759764581,1.0093640566071649
+A1,num__MGRSOC,Job needs expertise: social sciences (num__MGRSOC),-0.0041349459837513,0.0050013087955414,0.9958735911344984
+A1,num__salary_zero,Reported salary of 0 (num__salary_zero),-0.0155364491735227,0.0019140175805937,0.984583618838524
+A1,num__salary_low,"Implausibly low salary (<$1,000) (num__salary_low)",0.0446707709185222,0.0043839585766951,1.0456835338013932
+A1,num__salary_topcoded,Salary top-coded (num__salary_topcoded),0.0193130702296832,0.0038517609738846,1.019500774001952
+A1,num__hours_topcoded,Hours top-coded (96) (num__hours_topcoded),0.0252193626298231,0.0033909323679026,1.0255400610165315
+A1,num__Achievement,O*NET work value: Achievement (num__Achievement),0.0410522985691207,0.016767105108711,1.0419065943446657
+A1,num__Independence,O*NET work value: Independence (num__Independence),0.0776532300745992,0.0110827008572877,1.0807478228410394
+A1,num__Recognition,O*NET work value: Recognition (num__Recognition),0.0282026820258854,0.0178499922054048,1.0286041428668318
+A1,num__Relationships,O*NET work value: Relationships (num__Relationships),0.0210909483767572,0.0067477025194708,1.0213149343491357
+A1,num__Support,O*NET work value: Support (num__Support),-0.0073683600153912,0.0065699489424821,0.9926587197971778
+A1,num__Working Conditions,O*NET work value: Working Conditions (num__Working Conditions),-0.025397809870334,0.0152397177693474,0.9749220012811708
+A1,num__job_zone,O*NET job zone (preparation needed) (num__job_zone),-0.0869695501055596,0.0172074656449409,0.916705008778924
+A1,num__missingindicator_log_salary,Missing flag: Salary (log) (num__missingindicator_log_salary),-0.0155364491735227,0.0019140175805937,0.984583618838524
+A1,num__missingindicator_Achievement,Missing flag: O*NET work value: Achievement (num__missingindicator_Achievement),-0.0019852879574771,0.000995915553093,0.9980166814231816
+A1,num__missingindicator_Independence,Missing flag: O*NET work value: Independence (num__missingindicator_Independence),-0.0019852879574771,0.000995915553093,0.9980166814231816
+A1,num__missingindicator_Recognition,Missing flag: O*NET work value: Recognition (num__missingindicator_Recognition),-0.0019852879574771,0.000995915553093,0.9980166814231816
+A1,num__missingindicator_Relationships,Missing flag: O*NET work value: Relationships (num__missingindicator_Relationships),-0.0019852879574771,0.000995915553093,0.9980166814231816
+A1,num__missingindicator_Support,Missing flag: O*NET work value: Support (num__missingindicator_Support),-0.0019852879574771,0.000995915553093,0.9980166814231816
+A1,num__missingindicator_Working Conditions,Missing flag: O*NET work value: Working Conditions (num__missingindicator_Working Conditions),-0.0019852879574771,0.000995915553093,0.9980166814231816
+A1,num__missingindicator_job_zone,Missing flag: O*NET job zone (preparation needed) (num__missingindicator_job_zone),0.0059243371133625,0.0045068828235494,1.0059419207050375
+A1,cat__SEX_2023_Female,Sex: Female (cat__SEX_2023_Female),-0.0160734517118396,0.0046355086618887,0.984055036873653
+A1,cat__SEX_2023_Male,Sex: Male (cat__SEX_2023_Male),0.0010764581419479,0.0045826076657422,1.0010770377309628
+A1,cat__RACETHM_American Indian/Alaska Native,Race/ethnicity: American Indian/Alaska Native (cat__RACETHM_American Indian/Alaska Native),0.1149628078672714,0.0374667732540434,1.1218317134820524
+A1,cat__RACETHM_Asian,Race/ethnicity: Asian (cat__RACETHM_Asian),-0.2525452626350721,0.014101066031941,0.7768210510758111
+A1,cat__RACETHM_Black,Race/ethnicity: Black (cat__RACETHM_Black),-0.1031406152507509,0.0143226103256359,0.902000129589233
+A1,"cat__RACETHM_Hispanic, any race","Race/ethnicity: Hispanic, any race (cat__RACETHM_Hispanic, any race)",0.1265595493224749,0.0140500586760127,1.134917032704197
+A1,cat__RACETHM_Multiple race,Race/ethnicity: Multiple race (cat__RACETHM_Multiple race),-0.0212037156058974,0.0172966765942674,0.9790195027022236
+A1,cat__RACETHM_Native Hawaiian/Pacific Islander,Race/ethnicity: Native Hawaiian/Pacific Islander (cat__RACETHM_Native Hawaiian/Pacific Islander),0.0256207335098723,0.0215535181096431,1.0259517655509258
+A1,cat__RACETHM_White,Race/ethnicity: White (cat__RACETHM_White),0.0947495092222047,0.010960835777559,1.0993834352206864
+A1,cat__CTZN_Permanent resident,Citizenship: Permanent resident (cat__CTZN_Permanent resident),-0.2006611877048025,0.0126472433440563,0.8181895972929935
+A1,cat__CTZN_Temporary resident,Citizenship: Temporary resident (cat__CTZN_Temporary resident),0.0646580362707106,0.0153763252908952,1.0667941570937147
+A1,"cat__CTZN_U.S. citizen, native","Citizenship: U.S. citizen, native (cat__CTZN_U.S. citizen, native)",0.1930887791478372,0.0118112724828455,1.2129904769999076
+A1,"cat__CTZN_U.S. citizen, naturalized","Citizenship: U.S. citizen, naturalized (cat__CTZN_U.S. citizen, naturalized)",-0.0720826212836363,0.0096899354680809,0.9304540173300736
+A1,cat__MARSTA_Divorced,Marital status: Divorced (cat__MARSTA_Divorced),-0.0211581025481341,0.013349083387172,0.979064159793817
+A1,cat__MARSTA_Marriage-like relationship,Marital status: Marriage-like relationship (cat__MARSTA_Marriage-like relationship),-0.0766748201685611,0.0169672866870167,0.9261909832710152
+A1,cat__MARSTA_Married,Marital status: Married (cat__MARSTA_Married),0.1097929124313355,0.0115491346375528,1.1160469270815925
+A1,cat__MARSTA_Never married,Marital status: Never married (cat__MARSTA_Never married),-0.1575053776572583,0.0139738404759716,0.8542722196129247
+A1,cat__MARSTA_Separated,Marital status: Separated (cat__MARSTA_Separated),-0.0042968197553647,0.0286014270223866,0.995712398367044
+A1,cat__MARSTA_Widowed,Marital status: Widowed (cat__MARSTA_Widowed),0.1348452141280868,0.0418247362790667,1.144359639937292
+A1,cat__DGRDG_Bachelor's,Highest degree: Bachelor's (cat__DGRDG_Bachelor's),0.0404609956946804,0.0085241557344206,1.041290694090272
+A1,cat__DGRDG_Doctorate,Highest degree: Doctorate (cat__DGRDG_Doctorate),-0.0484300220610527,0.0115982229833472,0.9527240066355565
+A1,cat__DGRDG_Master's,Highest degree: Master's (cat__DGRDG_Master's),0.0006365258449482,0.00751638265132,1.0006367284705138
+A1,cat__DGRDG_Professional,Highest degree: Professional (cat__DGRDG_Professional),-0.0076644930484709,0.0139805146184258,0.9923648042808656
+A1,cat__NDGMEMG_Computer and mathematical sciences,Degree field: Computer and mathematical sciences (cat__NDGMEMG_Computer and mathematical sciences),-0.1087374680429297,0.0195270641792562,0.8969658687950983
+A1,cat__NDGMEMG_Engineering,Degree field: Engineering (cat__NDGMEMG_Engineering),0.0185400297361938,0.0125692232376493,1.0187129631645762
+A1,cat__NDGMEMG_Life sciences,Degree field: Life sciences (cat__NDGMEMG_Life sciences),0.0477039812764295,0.0124683130141603,1.0488601271296212
+A1,cat__NDGMEMG_Non-S&E fields,Degree field: Non-S&E fields (cat__NDGMEMG_Non-S&E fields),-0.0173876318188444,0.008524063554992,0.982762660713518
+A1,cat__NDGMEMG_Physical sciences,Degree field: Physical sciences (cat__NDGMEMG_Physical sciences),0.0765263448728978,0.0177166991957187,1.0795306300597818
+A1,cat__NDGMEMG_S&E-related fields,Degree field: S&E-related fields (cat__NDGMEMG_S&E-related fields),-0.0062674149733704,0.0083470050234991,0.993752184304874
+A1,cat__NDGMEMG_Social sciences,Degree field: Social sciences (cat__NDGMEMG_Social sciences),-0.0253748346202723,0.0132383179819415,0.9749444006152552
+A1,cat__NEDTP_Local government,Employer type: Local government (cat__NEDTP_Local government),-0.1808591854304931,0.0155693222070289,0.834552867624896
+A1,cat__NEDTP_Other employer type,Employer type: Other employer type (cat__NEDTP_Other employer type),0.0230132754754177,0.0240529515460885,1.0232801239871787
+A1,cat__NEDTP_Private for-profit,Employer type: Private for-profit (cat__NEDTP_Private for-profit),-0.3086623545116075,0.015455803425272,0.7344287047055847
+A1,cat__NEDTP_Private not-for-profit,Employer type: Private not-for-profit (cat__NEDTP_Private not-for-profit),-0.0391902571856284,0.0168356257048692,0.9615677465686928
+A1,"cat__NEDTP_Self-employed, incorporated","Employer type: Self-employed, incorporated (cat__NEDTP_Self-employed, incorporated)",-0.0454047771832155,0.0182292912548284,0.9556105941721736
+A1,"cat__NEDTP_Self-employed, not incorporated","Employer type: Self-employed, not incorporated (cat__NEDTP_Self-employed, not incorporated)",0.2050307858934042,0.0233779414768855,1.227562856000691
+A1,cat__NEDTP_State government,Employer type: State government (cat__NEDTP_State government),-0.0851050607076391,0.0162215916830702,0.918415789919861
+A1,cat__NEDTP_U.S. federal government (civilian),Employer type: U.S. federal government (civilian) (cat__NEDTP_U.S. federal government (civilian)),0.1656217259375482,0.0167623414658734,1.1801266059942666
+A1,cat__NEDTP_U.S. military,Employer type: U.S. military (cat__NEDTP_U.S. military),0.2505588541423199,0.0605308003784233,1.2847432001601535
+A1,"cat__TELEC_Allowed to telework, and did","Allowed and teleworked (cat__TELEC_Allowed to telework, and did)",0.0753128094948878,0.0081918057993742,1.07822137602228
+A1,"cat__TELEC_Allowed to telework, and didn't","Allowed but not teleworking (cat__TELEC_Allowed to telework, and didn't)",0.3361525813628535,0.0187449327388722,1.3995525541563152
+A1,cat__TELEC_Not allowed or required to telework,Telework not allowed (cat__TELEC_Not allowed or required to telework),-0.4245543813762447,0.0135101516272494,0.6540611820428733
+A1,cat__TELEC_Required to telework,Required to telework (cat__TELEC_Required to telework),0.0071644587045176,0.0145345474823758,1.0071901848400289
+A1,cat__TELEC_Telework didn't make sense for job,Telework doesn't suit the job (cat__TELEC_Telework didn't make sense for job),-0.0090724617559071,0.0107997862862025,0.9909685688486308
+A1,cat__occ_group_11,Occupation: Computer & information science [11] (cat__occ_group_11),0.1497536938885538,0.0165533338276579,1.1615481110932435
+A1,cat__occ_group_12,"Occupation: Math, statistics & data science [12] (cat__occ_group_12)",0.1499119117361607,0.0383820564890056,1.1617319032744908
+A1,cat__occ_group_18,Occupation: Postsecondary teachers: math/CS [18] (cat__occ_group_18),0.0305634941192088,0.0486346762384461,1.0310353526521034
+A1,cat__occ_group_21,Occupation: Agricultural & food scientists [21] (cat__occ_group_21),0.0079949678101682,0.0266357888148263,1.0080270129082258
+A1,cat__occ_group_22,Occupation: Life scientists [22] (cat__occ_group_22),0.0148748987312043,0.0249050555629809,1.0149860806264592
+A1,cat__occ_group_23,Occupation: Conservation scientists & foresters [23] (cat__occ_group_23),-0.1162240653515194,0.0466244825447257,0.8902757210051554
+A1,cat__occ_group_28,Occupation: Postsecondary teachers: life sciences [28] (cat__occ_group_28),0.0182588328655036,0.0274900864594143,1.0184265445391008
+A1,cat__occ_group_31,Occupation: Chemists [31] (cat__occ_group_31),-0.1345900076342925,0.0323165449571765,0.874074201984748
+A1,cat__occ_group_32,Occupation: Environmental & earth scientists [32] (cat__occ_group_32),-0.0116626262553203,0.0341396711339676,0.9884051185537116
+A1,cat__occ_group_33,Occupation: Physicists [33] (cat__occ_group_33),0.0697430887578062,0.0340477441854862,1.0722326772366626
+A1,cat__occ_group_34,Occupation: Other physical scientists [34] (cat__occ_group_34),-0.0425156876312311,0.0310587193336812,0.9583754307626786
+A1,cat__occ_group_38,Occupation: Postsecondary teachers: physical sciences [38] (cat__occ_group_38),-0.1299568836239461,0.0459761615559725,0.8781332920295831
+A1,cat__occ_group_41,Occupation: Economists [41] (cat__occ_group_41),0.0734945164818854,0.0391138659227987,1.076262634950056
+A1,cat__occ_group_42,Occupation: Political scientists [42] (cat__occ_group_42),0.0576100495694336,0.0311089336056981,1.059301839951801
+A1,cat__occ_group_43,Occupation: Psychologists [43] (cat__occ_group_43),0.0600983502571773,0.0435378770540427,1.061940983578413
+A1,cat__occ_group_44,Occupation: Anthropologists & sociologists [44] (cat__occ_group_44),-0.0447731504591559,0.0381265457572877,0.9562143740229184
+A1,cat__occ_group_45,Occupation: Other social scientists [45] (cat__occ_group_45),0.0430947901292282,0.036263435991752,1.0440368545486989
+A1,cat__occ_group_48,Occupation: Postsecondary teachers: social sciences [48] (cat__occ_group_48),-0.0962667635342807,0.0369822094840628,0.9082217033185526
+A1,cat__occ_group_51,Occupation: Aerospace engineers [51] (cat__occ_group_51),0.0639361628715307,0.0255857655707869,1.0660243446562978
+A1,cat__occ_group_52,Occupation: Chemical engineers [52] (cat__occ_group_52),-0.121498391513361,0.0421036405340885,0.8855924778113898
+A1,cat__occ_group_53,Occupation: Civil engineers [53] (cat__occ_group_53),-0.0314601505492366,0.0240647748738096,0.9690295709805278
+A1,cat__occ_group_54,Occupation: Electrical & computer engineers [54] (cat__occ_group_54),0.0426354135540721,0.0233139014194967,1.0435573586171512
+A1,cat__occ_group_55,Occupation: Industrial engineers [55] (cat__occ_group_55),-0.0472991841582335,0.0305759881751552,0.9538019924519188
+A1,cat__occ_group_56,Occupation: Mechanical engineers [56] (cat__occ_group_56),-0.217066496932297,0.0438131711185521,0.8048764457109259
+A1,cat__occ_group_57,Occupation: Other engineers [57] (cat__occ_group_57),-0.0071029622639609,0.0243526487497438,0.9929222041518806
+A1,cat__occ_group_58,Occupation: Postsecondary teachers: engineering [58] (cat__occ_group_58),-0.0283383633621603,0.0274439890905115,0.9720594018621104
+A1,cat__occ_group_61,"Occupation: Health occupations (nurses, pharmacists, therapists...) [61] (cat__occ_group_61)",0.0763243297187609,0.0219600315784218,1.07931257053956
+A1,cat__occ_group_62,"Occupation: Managers (engineering, health, IT, science) [62] (cat__occ_group_62)",0.030680241754342,0.0308299750821509,1.031155730618049
+A1,cat__occ_group_63,Occupation: Secondary teachers: STEM & social sci [63] (cat__occ_group_63),-0.111029159159889,0.0312956920629537,0.8949126536474201
+A1,cat__occ_group_64,Occupation: Technicians & programmers [64] (cat__occ_group_64),-0.0400542363055704,0.020448949724485,0.9607373308958048
+A1,cat__occ_group_65,Occupation: Architects & actuaries [65] (cat__occ_group_65),0.0323925808058236,0.0335511376332686,1.0329229314354296
+A1,cat__occ_group_71,Occupation: Executives & other managers [71] (cat__occ_group_71),0.1296822524586674,0.0173023910695327,1.1384665808897818
+A1,cat__occ_group_72,"Occupation: Management-related (finance, HR, purchasing...) [72] (cat__occ_group_72)",0.0618716008613087,0.0175773712675885,1.0638257416494172
+A1,cat__occ_group_73,Occupation: K-12 teachers (non-STEM focus) [73] (cat__occ_group_73),-0.0792233000567828,0.0238878024221253,0.9238336093134364
+A1,cat__occ_group_74,Occupation: Postsecondary teachers: other fields [74] (cat__occ_group_74),-0.0235346515211533,0.0270911339248741,0.9767401285512116
+A1,cat__occ_group_75,Occupation: Counselors & social service [75] (cat__occ_group_75),0.0720110233026502,0.0253404729340975,1.0746671903802083
+A1,cat__occ_group_76,Occupation: Sales [76] (cat__occ_group_76),0.0170155650821588,0.0244863234566464,1.0171611543989636
+A1,cat__occ_group_77,"Occupation: Writers, artists & media [77] (cat__occ_group_77)",-0.0231421558622216,0.0256471201342683,0.977123570056213
+A1,cat__occ_group_78,"Occupation: Admin support, lawyers & service [78] (cat__occ_group_78)",0.0887934778490732,0.0281450445266086,1.092854934267154
+A2,num__AGE,Age (years) (num__AGE),0.06815285216981,0.005114607607269,1.0705289286431947
+A2,num__HRSWK,Hours worked per week (num__HRSWK),-0.1602470130968807,0.0053266303996401,0.8519333242847477
+A2,num__WKSWK,Weeks worked per year (num__WKSWK),-0.0281388458964733,0.0044836917402887,0.9722533640392448
+A2,num__tenure_years,Years in current job (num__tenure_years),0.0100544366362918,0.0046071551084551,1.010105152314342
+A2,num__log_salary,Salary (log) (num__log_salary),0.2612783132446328,0.0061243975272713,1.298589029671423
+A2,num__TELEFR,Telework days per week (0-4) (num__TELEFR),-0.0035703561459672,0.0064059090577276,0.996436009996818
+A2,num__EMSIZE,Employer size (1 = small ... 8 = large) (num__EMSIZE),-0.0897298709042109,0.0051971713330612,0.9141780980235767
+A2,num__OCEDRLP,Job less related to degree (1 = closely ... 3 = not related) (num__OCEDRLP),-0.1734906436816579,0.0067308271370091,0.8407250172159817
+A2,num__JOBINS,Offers health insurance (num__JOBINS),-0.0373249669802234,0.0059148292532864,0.963363023303729
+A2,num__JOBPENS,Offers pension/retirement plan (num__JOBPENS),0.0684041661779849,0.0036641540619737,1.0707980013685756
+A2,num__JOBPROFT,Offers profit sharing (num__JOBPROFT),0.1319481989902715,0.0030625869498484,1.1410492102350545
+A2,num__JOBVAC,Offers paid vacation/sick days (num__JOBVAC),-0.0118823803100585,0.0042301129454647,0.9881879363853908
+A2,num__MGRNAT,Job needs expertise: eng/CS/math/natural sci (num__MGRNAT),0.0073547454663216,0.0053305998276064,1.0073818580346805
+A2,num__MGROTH,Job needs expertise: other fields (num__MGROTH),0.0005269863715485,0.0047498344486362,1.0005271252532617
+A2,num__MGRSOC,Job needs expertise: social sciences (num__MGRSOC),-0.0211299483402685,0.0050652581622642,0.9790917249577216
+A2,num__salary_zero,Reported salary of 0 (num__salary_zero),-0.0169545179167815,0.001719995489624,0.9831884010746806
+A2,num__salary_low,"Implausibly low salary (<$1,000) (num__salary_low)",0.0436162071277356,0.0047529787156268,1.0445813750605175
+A2,num__salary_topcoded,Salary top-coded (num__salary_topcoded),0.0172182912529601,0.0041582840428333,1.017367380487889
+A2,num__hours_topcoded,Hours top-coded (96) (num__hours_topcoded),0.02508670088036,0.0035368260548769,1.0254040201018049
+A2,num__Achievement,O*NET work value: Achievement (num__Achievement),0.1011088346790886,0.0198183605029677,1.1063970495788673
+A2,num__Independence,O*NET work value: Independence (num__Independence),0.0896888501029665,0.0117277710817837,1.0938338844498416
+A2,num__Recognition,O*NET work value: Recognition (num__Recognition),0.0433993979421128,0.0194093173996106,1.0443549247724122
+A2,num__Relationships,O*NET work value: Relationships (num__Relationships),0.0305415258183472,0.0101946207960952,1.0310127028060678
+A2,num__Support,O*NET work value: Support (num__Support),0.0130088506931742,0.0061972863810733,1.0130938339028095
+A2,num__Working Conditions,O*NET work value: Working Conditions (num__Working Conditions),-0.0399561380319847,0.0157262717896482,0.9608315821922044
+A2,num__job_zone,O*NET job zone (preparation needed) (num__job_zone),-0.0869188353589939,0.0179241213861063,0.916751500420016
+A2,num__FACADV,Rates advancement important (num__FACADV),-0.1563754813494274,0.0042904424258423,0.8552380041551934
+A2,num__FACBEN,Rates benefits important (num__FACBEN),-0.0188594112265276,0.0065134662939029,0.9813173147429592
+A2,num__FACCHAL,Rates intellectual challenge important (num__FACCHAL),0.164738476719192,0.0068911632839683,1.1790847202820651
+A2,num__FACIND,Rates independence important (num__FACIND),0.1342201016079852,0.0050524938097927,1.1436445099405128
+A2,num__FACLOC,Rates job location important (num__FACLOC),0.0611017286727119,0.0042089544575674,1.0630070469829722
+A2,num__FACRESP,Rates level of responsibility important (num__FACRESP),0.1815589247956987,0.005384810497276,1.1990851904779385
+A2,num__FACSAL,Rates salary important (num__FACSAL),-0.0143652096386925,0.0053869790226796,0.9857374776889
+A2,num__FACSEC,Rates job security important (num__FACSEC),0.1957512708988001,0.0067356519890092,1.2162243573183749
+A2,num__FACSOC,Rates contribution to society important (num__FACSOC),0.1348197718913736,0.0066585235359097,1.1443305252388207
+A2,num__missingindicator_log_salary,Missing flag: Salary (log) (num__missingindicator_log_salary),-0.0169545179167815,0.001719995489624,0.9831884010746806
+A2,num__missingindicator_Achievement,Missing flag: O*NET work value: Achievement (num__missingindicator_Achievement),-0.0022687881281873,0.000995746099208,0.9977337836263084
+A2,num__missingindicator_Independence,Missing flag: O*NET work value: Independence (num__missingindicator_Independence),-0.0022687881281873,0.000995746099208,0.9977337836263084
+A2,num__missingindicator_Recognition,Missing flag: O*NET work value: Recognition (num__missingindicator_Recognition),-0.0022687881281873,0.000995746099208,0.9977337836263084
+A2,num__missingindicator_Relationships,Missing flag: O*NET work value: Relationships (num__missingindicator_Relationships),-0.0022687881281873,0.000995746099208,0.9977337836263084
+A2,num__missingindicator_Support,Missing flag: O*NET work value: Support (num__missingindicator_Support),-0.0022687881281873,0.000995746099208,0.9977337836263084
+A2,num__missingindicator_Working Conditions,Missing flag: O*NET work value: Working Conditions (num__missingindicator_Working Conditions),-0.0022687881281873,0.000995746099208,0.9977337836263084
+A2,num__missingindicator_job_zone,Missing flag: O*NET job zone (preparation needed) (num__missingindicator_job_zone),0.0084694532735679,0.0046230389553807,1.008505420562328
+A2,cat__SEX_2023_Female,Sex: Female (cat__SEX_2023_Female),-0.0601301483637494,0.004421627872424,0.9416419724469042
+A2,cat__SEX_2023_Male,Sex: Male (cat__SEX_2023_Male),0.0324380291779541,0.0043951999811111,1.0329698771679952
+A2,cat__RACETHM_American Indian/Alaska Native,Race/ethnicity: American Indian/Alaska Native (cat__RACETHM_American Indian/Alaska Native),0.1418183882610532,0.0414678637502352,1.1523673460940602
+A2,cat__RACETHM_Asian,Race/ethnicity: Asian (cat__RACETHM_Asian),-0.2435777076367597,0.0158968822174201,0.7838185649773437
+A2,cat__RACETHM_Black,Race/ethnicity: Black (cat__RACETHM_Black),-0.1480582028440504,0.0142456696857589,0.8623809204591032
+A2,"cat__RACETHM_Hispanic, any race","Race/ethnicity: Hispanic, any race (cat__RACETHM_Hispanic, any race)",0.0883409904026176,0.0142871870750845,1.0923605429899597
+A2,cat__RACETHM_Multiple race,Race/ethnicity: Multiple race (cat__RACETHM_Multiple race),-0.0131441328957204,0.0194015771570492,0.9869418739780816
+A2,cat__RACETHM_Native Hawaiian/Pacific Islander,Race/ethnicity: Native Hawaiian/Pacific Islander (cat__RACETHM_Native Hawaiian/Pacific Islander),0.0323121943261852,0.0217859481803946,1.0328399017345111
+A2,cat__RACETHM_White,Race/ethnicity: White (cat__RACETHM_White),0.1146163512008752,0.0108647029790218,1.1214431147265436
+A2,cat__CTZN_Permanent resident,Citizenship: Permanent resident (cat__CTZN_Permanent resident),-0.1771496804296916,0.0135729106766893,0.8376543946692973
+A2,cat__CTZN_Temporary resident,Citizenship: Temporary resident (cat__CTZN_Temporary resident),-0.0022050020128886,0.0145057416010772,0.9977974272182352
+A2,"cat__CTZN_U.S. citizen, native","Citizenship: U.S. citizen, native (cat__CTZN_U.S. citizen, native)",0.2268970746021953,0.0118724500808688,1.2547007207233227
+A2,"cat__CTZN_U.S. citizen, naturalized","Citizenship: U.S. citizen, naturalized (cat__CTZN_U.S. citizen, naturalized)",-0.0752345113454099,0.0097470133158895,0.927525945464276
+A2,cat__MARSTA_Divorced,Marital status: Divorced (cat__MARSTA_Divorced),-0.0252546604351415,0.0138363856093262,0.975061570804422
+A2,cat__MARSTA_Marriage-like relationship,Marital status: Marriage-like relationship (cat__MARSTA_Marriage-like relationship),-0.0736073086604714,0.0157691000422296,0.929036446785698
+A2,cat__MARSTA_Married,Marital status: Married (cat__MARSTA_Married),0.0959465523549075,0.0120178966405114,1.1007002325864084
+A2,cat__MARSTA_Never married,Marital status: Never married (cat__MARSTA_Never married),-0.1489629449951174,0.0136158681929531,0.8616010409382237
+A2,cat__MARSTA_Separated,Marital status: Separated (cat__MARSTA_Separated),-0.0136811551824177,0.0319272540322627,0.9864120064841416
+A2,cat__MARSTA_Widowed,Marital status: Widowed (cat__MARSTA_Widowed),0.1378673977324429,0.0400749493515705,1.1478233362053007
+A2,cat__DGRDG_Bachelor's,Highest degree: Bachelor's (cat__DGRDG_Bachelor's),0.0645999026339062,0.0086713732404584,1.0667321422722322
+A2,cat__DGRDG_Doctorate,Highest degree: Doctorate (cat__DGRDG_Doctorate),-0.0716546633695203,0.0131990873759388,0.9308522977080524
+A2,cat__DGRDG_Master's,Highest degree: Master's (cat__DGRDG_Master's),-0.0073797700591556,0.0080817371680564,0.9926473935823582
+A2,cat__DGRDG_Professional,Highest degree: Professional (cat__DGRDG_Professional),-0.0132575883910281,0.0167643096871826,0.986829906350721
+A2,cat__NDGMEMG_Computer and mathematical sciences,Degree field: Computer and mathematical sciences (cat__NDGMEMG_Computer and mathematical sciences),-0.1080051884500444,0.0188440055194998,0.8976229391465743
+A2,cat__NDGMEMG_Engineering,Degree field: Engineering (cat__NDGMEMG_Engineering),0.0270199913137606,0.0128540991162957,1.0273883414008786
+A2,cat__NDGMEMG_Life sciences,Degree field: Life sciences (cat__NDGMEMG_Life sciences),0.0395567283651018,0.0128181337402046,1.0403495145381056
+A2,cat__NDGMEMG_Non-S&E fields,Degree field: Non-S&E fields (cat__NDGMEMG_Non-S&E fields),-0.0182853221111358,0.0084947519213553,0.9818808400735008
+A2,cat__NDGMEMG_Physical sciences,Degree field: Physical sciences (cat__NDGMEMG_Physical sciences),0.0857056037849107,0.0165930612759437,1.089485540668545
+A2,cat__NDGMEMG_S&E-related fields,Degree field: S&E-related fields (cat__NDGMEMG_S&E-related fields),-0.0140263856951697,0.0095547743672049,0.9860715257369111
+A2,cat__NDGMEMG_Social sciences,Degree field: Social sciences (cat__NDGMEMG_Social sciences),-0.0396575463932207,0.0132160786517151,0.9611185213055854
+A2,cat__NEDTP_Local government,Employer type: Local government (cat__NEDTP_Local government),-0.2072699985142965,0.0150928511920213,0.8128001655215537
+A2,cat__NEDTP_Other employer type,Employer type: Other employer type (cat__NEDTP_Other employer type),0.0261229603089966,0.0287520762661384,1.0264671554326668
+A2,cat__NEDTP_Private for-profit,Employer type: Private for-profit (cat__NEDTP_Private for-profit),-0.2784722102785897,0.0127620476213358,0.756939302589972
+A2,cat__NEDTP_Private not-for-profit,Employer type: Private not-for-profit (cat__NEDTP_Private not-for-profit),-0.0742683190180167,0.0168147224531062,0.9284225469912496
+A2,"cat__NEDTP_Self-employed, incorporated","Employer type: Self-employed, incorporated (cat__NEDTP_Self-employed, incorporated)",-0.0383963111612517,0.0177088870282864,0.9623314826007248
+A2,"cat__NEDTP_Self-employed, not incorporated","Employer type: Self-employed, not incorporated (cat__NEDTP_Self-employed, not incorporated)",0.1901063235309411,0.0226199545553802,1.2093781761796036
+A2,cat__NEDTP_State government,Employer type: State government (cat__NEDTP_State government),-0.0942128201420023,0.0153328615922744,0.9100890563470336
+A2,cat__NEDTP_U.S. federal government (civilian),Employer type: U.S. federal government (civilian) (cat__NEDTP_U.S. federal government (civilian)),0.1430761624417009,0.0154204891303118,1.1538176758910836
+A2,cat__NEDTP_U.S. military,Employer type: U.S. military (cat__NEDTP_U.S. military),0.3056220936467224,0.0518663664881356,1.357469213363303
+A2,"cat__TELEC_Allowed to telework, and did","Allowed and teleworked (cat__TELEC_Allowed to telework, and did)",0.0715928010422044,0.0078374170721323,1.0742178346104634
+A2,"cat__TELEC_Allowed to telework, and didn't","Allowed but not teleworking (cat__TELEC_Allowed to telework, and didn't)",0.3510362163203346,0.0145064633088043,1.420538771667804
+A2,cat__TELEC_Not allowed or required to telework,Telework not allowed (cat__TELEC_Not allowed or required to telework),-0.4251497448944372,0.0114565592775984,0.6536718937719352
+A2,cat__TELEC_Required to telework,Required to telework (cat__TELEC_Required to telework),-0.0011842480782165,0.014545826507743,0.998816452866814
+A2,cat__TELEC_Telework didn't make sense for job,Telework doesn't suit the job (cat__TELEC_Telework didn't make sense for job),-0.0239871435756801,0.0111857573424179,0.9762982613819357
+A2,cat__occ_group_11,Occupation: Computer & information science [11] (cat__occ_group_11),0.2213402847112998,0.0205517099530327,1.247747947881812
+A2,cat__occ_group_12,"Occupation: Math, statistics & data science [12] (cat__occ_group_12)",0.2070367543203188,0.0420036445257084,1.230027779784972
+A2,cat__occ_group_18,Occupation: Postsecondary teachers: math/CS [18] (cat__occ_group_18),0.0717487058421624,0.0525361253756642,1.0743853233828922
+A2,cat__occ_group_21,Occupation: Agricultural & food scientists [21] (cat__occ_group_21),0.0425482444342293,0.0331682551412888,1.043466396605292
+A2,cat__occ_group_22,Occupation: Life scientists [22] (cat__occ_group_22),0.0281420231547101,0.0266759893688851,1.0285417507929748
+A2,cat__occ_group_23,Occupation: Conservation scientists & foresters [23] (cat__occ_group_23),-0.0654773562132356,0.0323145192388281,0.9366202551488446
+A2,cat__occ_group_28,Occupation: Postsecondary teachers: life sciences [28] (cat__occ_group_28),-0.0308560570597771,0.0258359130974715,0.9696151322845292
+A2,cat__occ_group_31,Occupation: Chemists [31] (cat__occ_group_31),-0.1503860842856862,0.0335779394226545,0.8603757347415688
+A2,cat__occ_group_32,Occupation: Environmental & earth scientists [32] (cat__occ_group_32),0.0577848322812086,0.0343877252213207,1.0594870037812227
+A2,cat__occ_group_33,Occupation: Physicists [33] (cat__occ_group_33),-0.0703208851913745,0.0346626035879889,0.932094676534517
+A2,cat__occ_group_34,Occupation: Other physical scientists [34] (cat__occ_group_34),-0.0495800644043779,0.0351258094763372,0.9516289634801132
+A2,cat__occ_group_38,Occupation: Postsecondary teachers: physical sciences [38] (cat__occ_group_38),-0.1509479479874611,0.0421751962736536,0.8598924566272587
+A2,cat__occ_group_41,Occupation: Economists [41] (cat__occ_group_41),0.0854930265473717,0.0402011658450606,1.0892539654566529
+A2,cat__occ_group_42,Occupation: Political scientists [42] (cat__occ_group_42),0.0695964966652268,0.0319668659785355,1.0720755079249449
+A2,cat__occ_group_43,Occupation: Psychologists [43] (cat__occ_group_43),-0.0344925440745654,0.0389498517445016,0.9660955427959684
+A2,cat__occ_group_44,Occupation: Anthropologists & sociologists [44] (cat__occ_group_44),-0.0273681933290777,0.0372730974549248,0.9730029223778324
+A2,cat__occ_group_45,Occupation: Other social scientists [45] (cat__occ_group_45),0.1441117218235077,0.0433177060874025,1.155013141491223
+A2,cat__occ_group_48,Occupation: Postsecondary teachers: social sciences [48] (cat__occ_group_48),-0.0911299521620806,0.0353094028693589,0.9128990699827052
+A2,cat__occ_group_51,Occupation: Aerospace engineers [51] (cat__occ_group_51),0.1474798358035328,0.0376786735737354,1.15890991610691
+A2,cat__occ_group_52,Occupation: Chemical engineers [52] (cat__occ_group_52),-0.0575494088782965,0.0279356126543924,0.9440752435352368
+A2,cat__occ_group_53,Occupation: Civil engineers [53] (cat__occ_group_53),-2.793783035606838e-06,0.0242762019152814,0.999997206220867
+A2,cat__occ_group_54,Occupation: Electrical & computer engineers [54] (cat__occ_group_54),0.0848764558030705,0.0245443741537985,1.088582570331004
+A2,cat__occ_group_55,Occupation: Industrial engineers [55] (cat__occ_group_55),-0.0105889107996641,0.0268715162224495,0.9894669543586976
+A2,cat__occ_group_56,Occupation: Mechanical engineers [56] (cat__occ_group_56),-0.2298401195776921,0.0391953871342657,0.7946606430266157
+A2,cat__occ_group_57,Occupation: Other engineers [57] (cat__occ_group_57),-0.0092282380983819,0.0245904871823195,0.9908142114123988
+A2,cat__occ_group_58,Occupation: Postsecondary teachers: engineering [58] (cat__occ_group_58),-0.0560025051387247,0.0300237568187843,0.945536767186658
+A2,cat__occ_group_61,"Occupation: Health occupations (nurses, pharmacists, therapists...) [61] (cat__occ_group_61)",-0.0126088903523939,0.0173268301912371,0.9874702686538654
+A2,cat__occ_group_62,"Occupation: Managers (engineering, health, IT, science) [62] (cat__occ_group_62)",-0.0991227789917042,0.0378637017066042,0.9056315086737255
+A2,cat__occ_group_63,Occupation: Secondary teachers: STEM & social sci [63] (cat__occ_group_63),-0.2474033480318536,0.0480724075143277,0.7808256855032446
+A2,cat__occ_group_64,Occupation: Technicians & programmers [64] (cat__occ_group_64),0.0006949948449376,0.0242560629015111,1.0006952364098138
+A2,cat__occ_group_65,Occupation: Architects & actuaries [65] (cat__occ_group_65),0.0942433721385687,0.0419053274434711,1.0988271372883682
+A2,cat__occ_group_71,Occupation: Executives & other managers [71] (cat__occ_group_71),0.0499454775215855,0.0217882459975352,1.051213780032893
+A2,cat__occ_group_72,"Occupation: Management-related (finance, HR, purchasing...) [72] (cat__occ_group_72)",0.1683532376459996,0.0195821903654572,1.1833545422017564
+A2,cat__occ_group_73,Occupation: K-12 teachers (non-STEM focus) [73] (cat__occ_group_73),-0.1420273176254763,0.0323587994187429,0.8675975554571035
+A2,cat__occ_group_74,Occupation: Postsecondary teachers: other fields [74] (cat__occ_group_74),-0.0514980441394503,0.0302516141121421,0.9498055076475052
+A2,cat__occ_group_75,Occupation: Counselors & social service [75] (cat__occ_group_75),-0.0474773870150313,0.0172719888939869,0.953632037355736
+A2,cat__occ_group_76,Occupation: Sales [76] (cat__occ_group_76),0.0412607704287407,0.0252680856011308,1.042123825192412
+A2,cat__occ_group_77,"Occupation: Writers, artists & media [77] (cat__occ_group_77)",0.0491009820798225,0.0328272346343316,1.0503264095302465
+A2,cat__occ_group_78,"Occupation: Admin support, lawyers & service [78] (cat__occ_group_78)",0.0424594919072511,0.0276201152769522,1.0433737904353528
+A2,fit__fit_prod_Achievement,"Fit: person x job match, Achievement (fit__fit_prod_Achievement)",0.0419991951070989,0.0074810536347274,1.0428936393327386
+A2,fit__fit_gap_Achievement,"Fit: gap between person and job, Achievement (fit__fit_gap_Achievement)",0.0064927909721829,0.0112998702451011,1.006513914832343
+A2,fit__fit_prod_Independence,"Fit: person x job match, Independence (fit__fit_prod_Independence)",0.0226944383834098,0.0082959143497421,1.0229539163344503
+A2,fit__fit_gap_Independence,"Fit: gap between person and job, Independence (fit__fit_gap_Independence)",0.041711172057448,0.0092802466973467,1.042593305179932
+A2,fit__fit_prod_Recognition,"Fit: person x job match, Recognition (fit__fit_prod_Recognition)",0.0702526135250957,0.0063638342122971,1.072779145549759
+A2,fit__fit_gap_Recognition,"Fit: gap between person and job, Recognition (fit__fit_gap_Recognition)",0.060864946794629,0.0074441087225581,1.062755375974715
+A2,fit__fit_prod_Relationships,"Fit: person x job match, Relationships (fit__fit_prod_Relationships)",0.0938471133829707,0.0075998189445977,1.098391803672404
+A2,fit__fit_gap_Relationships,"Fit: gap between person and job, Relationships (fit__fit_gap_Relationships)",0.0774485177293052,0.0074414751430528,1.0805266030635363
+A2,fit__fit_prod_Working Conditions,"Fit: person x job match, Working Conditions (fit__fit_prod_Working Conditions)",0.0982048973096946,0.0055992210066196,1.1031888023702434
+A2,fit__fit_gap_Working Conditions,"Fit: gap between person and job, Working Conditions (fit__fit_gap_Working Conditions)",0.1227339280937798,0.0084501038887536,1.1305835644004054
