@@ -333,7 +333,7 @@ def describe_feature(name):
 
 
 # ----------------------------------------------------------------------------- plots
-def plot_confusion(results, y, n_repeats, out, show):
+def plot_confusion(results, y, n_repeats, out, show, prefix="nscg_lr"):
     fig, axes = plt.subplots(1, 3, figsize=(16, 4.5))
     cms = {}
     for ax, name in zip(axes, SETS):
@@ -348,11 +348,11 @@ def plot_confusion(results, y, n_repeats, out, show):
         ax.set_xlabel("Predicted Label")
         ax.set_ylabel("True Label")
         ax.set_title(f"OOF Confusion Matrix (Model {name}, % of true class)")
-    finish_figure(fig, out / "nscg_lr_confusion_matrices.png", show)
+    finish_figure(fig, out / f"{prefix}_confusion_matrices.png", show)
     return cms
 
 
-def plot_roc(results, point, y, n_repeats, out, show):
+def plot_roc(results, point, y, n_repeats, out, show, prefix="nscg_lr"):
     fig = plt.figure(figsize=(7, 6))
     for name in SETS:
         for r in range(n_repeats):
@@ -365,7 +365,7 @@ def plot_roc(results, point, y, n_repeats, out, show):
     plt.title("Out-of-Fold ROC: Context (A0) vs. + O*NET (A1) vs. + Fit (A2)")
     plt.legend(loc="lower right")
     plt.grid(True, alpha=0.3)
-    finish_figure(fig, out / "nscg_lr_roc_curves.png", show)
+    finish_figure(fig, out / f"{prefix}_roc_curves.png", show)
 
 
 def plot_coefficients(coef_table, out, show):
