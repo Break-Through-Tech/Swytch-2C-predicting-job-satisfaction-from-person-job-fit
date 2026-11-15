@@ -148,4 +148,4 @@ Positive-class recall varied by region (Midwest 0.673; Northeast 0.694;
 South 0.740; West 0.787). Female and male accuracy was 0.753 and 0.779,
 respectively. These differences warrant checking prevalence, subgroup
 sizes, and uncertainty; they do not by themselves establish
-discrimination or causation.
+discrimination or causation.AL
