@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pandas>=2.0
+numpy>=1.24
+joblib>=1.3
+scikit-learn==1.9.1   # must match the version that saved the .joblib files (artifacts/*.joblib)
+pytest>=8.0
+httpx>=0.27           # used by FastAPI's TestClient
